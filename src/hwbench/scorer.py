@@ -24,6 +24,16 @@ def _model_dir() -> Path:
     return Path(str(resources.files("hwbench"))) / "models"
 
 
+HF_REPO = "HassamGani/HandWritingBench"
+
+
+def _from_hub(name: str) -> Path:
+    # per-alphabet weights are too big for git; they live in the HF dataset repo
+    from huggingface_hub import hf_hub_download
+
+    return Path(hf_hub_download(HF_REPO, f"scorer/{name}.onnx", repo_type="dataset"))
+
+
 class Scorer:
     def __init__(self, name: str = DEFAULT_MODEL, model_dir: str | Path | None = None):
         d = Path(model_dir) if model_dir else _model_dir()
@@ -31,7 +41,10 @@ class Scorer:
         self.meta = json.loads((d / f"{name}.json").read_text())
         self.classes = self.meta["classes"]
         self.profile = self.meta.get("profile", {})
-        self.sess = ort.InferenceSession(str(d / f"{name}.onnx"), providers=["CPUExecutionProvider"])
+        onnx = d / f"{name}.onnx"
+        if not onnx.exists():
+            onnx = _from_hub(name)
+        self.sess = ort.InferenceSession(str(onnx), providers=["CPUExecutionProvider"])
 
     def probs(self, ink: np.ndarray) -> np.ndarray | None:
         x = normalize(ink, **self.profile)
