@@ -47,7 +47,9 @@ def fonts_for(key):
         p = FONTS / key / f["file"]
         if p.exists():
             out.append({**f, "local": str(p)})
-    return out
+    # display faces (pixel fonts, heavy decoration) aren't how anyone writes; drop them when there's enough else
+    plain = [f for f in out if f.get("category") != "Display"]
+    return plain if len(plain) >= 4 else out
 
 
 def split_fonts(fonts):
@@ -120,6 +122,14 @@ def build(fonts, chars, per, strength, seed, modes=("img", "stroke")):
 VERBOSE = False
 
 
+# Same-shape case pairs picked by hand for the big cased scripts, based on how the
+# letters are handwritten in print (a ρ is a Ρ with its bowl lower; no baseline, no way to tell).
+MANUAL_CASE = {
+    "greek": "ΚΟΤΡΧΘΦΨΙ",
+    "cyrillic": "ВГДЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+}
+
+
 def candidate_pairs(a):
     """Only pairs that are the same letter in another form: case pairs, and kana
     with the same reading. Letters that differ by a dot or a stroke stay distinct."""
@@ -136,6 +146,8 @@ def candidate_pairs(a):
 def confusable_groups(key):
     """Letters whose clean glyphs match after size normalization in most fonts."""
     a = BY_KEY[key]
+    if key in MANUAL_CASE:
+        return [sorted({c, c.lower()}) for c in MANUAL_CASE[key]]
     chars = a.chars
     fonts = fonts_for(key)
     if not fonts:
@@ -270,6 +282,7 @@ def main():
     ap.add_argument("alphabets", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--confusables-only", action="store_true")
+    ap.add_argument("--skip-existing", action="store_true")
     a = ap.parse_args()
     keys = [x.key for x in ALPHABETS if x.key != "latin"] if a.all else a.alphabets
     write_confusables(keys)
@@ -280,6 +293,8 @@ def main():
     dev = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
     OUT.mkdir(exist_ok=True)
     for k in keys:
+        if a.skip_existing and (OUT / f"{k}-{VERSION}.onnx").exists():
+            continue
         train(k, dev)
 
 
