@@ -1,0 +1,77 @@
+{
+ "name": "ugaritic-v0.4",
+ "alphabet": "ugaritic",
+ "classes": [
+  "𐎀",
+  "𐎁",
+  "𐎂",
+  "𐎃",
+  "𐎄",
+  "𐎅",
+  "𐎆",
+  "𐎇",
+  "𐎈",
+  "𐎉",
+  "𐎊",
+  "𐎋",
+  "𐎌",
+  "𐎍",
+  "𐎎",
+  "𐎏",
+  "𐎐",
+  "𐎑",
+  "𐎒",
+  "𐎓",
+  "𐎔",
+  "𐎕",
+  "𐎖",
+  "𐎗",
+  "𐎘",
+  "𐎙",
+  "𐎚",
+  "𐎛",
+  "𐎜",
+  "𐎝"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Ugaritic",
+    "file": "NotoSansUgaritic-Regular.ttf",
+    "sha256": "68d5a37ab45ba3ab091dda2aa392698963a90e2b399e131394892b8224da6491"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 9000,
+ "epochs": 12,
+ "best_epoch": [
+  8
+ ],
+ "seeds": 1,
+ "temperature": 0.486,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9958333333333333,
+  "balanced": 0.9958333333333333
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "93618cb4f3fc75e350ba95ee905fba9cb83a7ef54599150eb9534f3e1aed09cf"
+}

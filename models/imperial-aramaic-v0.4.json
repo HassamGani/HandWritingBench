@@ -1,0 +1,69 @@
+{
+ "name": "imperial-aramaic-v0.4",
+ "alphabet": "imperial-aramaic",
+ "classes": [
+  "𐡀",
+  "𐡁",
+  "𐡂",
+  "𐡃",
+  "𐡄",
+  "𐡅",
+  "𐡆",
+  "𐡇",
+  "𐡈",
+  "𐡉",
+  "𐡊",
+  "𐡋",
+  "𐡌",
+  "𐡍",
+  "𐡎",
+  "𐡏",
+  "𐡐",
+  "𐡑",
+  "𐡒",
+  "𐡓",
+  "𐡔",
+  "𐡕"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Imperial Aramaic",
+    "file": "NotoSansImperialAramaic-Regular.ttf",
+    "sha256": "51433e25557eac79df4e447e0b6be4a23bcf3680a60432ebb388a13ea82d227d"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 6600,
+ "epochs": 12,
+ "best_epoch": [
+  5
+ ],
+ "seeds": 1,
+ "temperature": 0.606,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9886363636363636,
+  "balanced": 0.9886363636363636
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "0d3b722e1836cb481733980cb30705c1d74374c91f0380dff8ad82edf4ce4371"
+}

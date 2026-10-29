@@ -1,0 +1,76 @@
+{
+ "name": "lycian-v0.4",
+ "alphabet": "lycian",
+ "classes": [
+  "𐊀",
+  "𐊁",
+  "𐊂",
+  "𐊃",
+  "𐊄",
+  "𐊅",
+  "𐊆",
+  "𐊇",
+  "𐊈",
+  "𐊉",
+  "𐊊",
+  "𐊋",
+  "𐊌",
+  "𐊍",
+  "𐊎",
+  "𐊏",
+  "𐊐",
+  "𐊑",
+  "𐊒",
+  "𐊓",
+  "𐊔",
+  "𐊕",
+  "𐊖",
+  "𐊗",
+  "𐊘",
+  "𐊙",
+  "𐊚",
+  "𐊛",
+  "𐊜"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Lycian",
+    "file": "NotoSansLycian-Regular.ttf",
+    "sha256": "81ad6994c822aba066219b06e6e097dcedba449b33c6fe6ceb79c2cdeb88664f"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 8700,
+ "epochs": 12,
+ "best_epoch": [
+  5
+ ],
+ "seeds": 1,
+ "temperature": 0.3,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9956896551724138,
+  "balanced": 0.9956896551724138
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "9d550606d5801e6e08bca702be89b9d48e2635dc6ac16220bf85e43ef1e44f9c"
+}

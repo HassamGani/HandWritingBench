@@ -1,6 +1,6 @@
 [project]
 name = "hwbench"
-version = "0.3.1"
+version = "0.4.0"
 description = "Benchmark for agents handwriting with a mouse via computer use"
 readme = "README.md"
 authors = [

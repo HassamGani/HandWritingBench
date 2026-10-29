@@ -1,0 +1,72 @@
+{
+ "name": "sora-sompeng-v0.4",
+ "alphabet": "sora-sompeng",
+ "classes": [
+  "𑃐",
+  "𑃑",
+  "𑃒",
+  "𑃓",
+  "𑃔",
+  "𑃕",
+  "𑃖",
+  "𑃗",
+  "𑃘",
+  "𑃙",
+  "𑃚",
+  "𑃛",
+  "𑃜",
+  "𑃝",
+  "𑃞",
+  "𑃟",
+  "𑃠",
+  "𑃡",
+  "𑃢",
+  "𑃣",
+  "𑃤",
+  "𑃥",
+  "𑃦",
+  "𑃧",
+  "𑃨"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Sora Sompeng",
+    "file": "NotoSansSoraSompeng[wght].ttf",
+    "sha256": "1fe66f4904e960705b68c60f7e92ae579ef80bab30f29b894d44eed1edc306e0"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 7500,
+ "epochs": 12,
+ "best_epoch": [
+  7
+ ],
+ "seeds": 1,
+ "temperature": 0.3,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "49942a0a03b74b1b3752ba7f0af2748336d2c62a2c84a35daa589e62ab7c5fc8"
+}

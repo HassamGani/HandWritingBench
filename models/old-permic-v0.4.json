@@ -1,0 +1,85 @@
+{
+ "name": "old-permic-v0.4",
+ "alphabet": "old-permic",
+ "classes": [
+  "𐍐",
+  "𐍑",
+  "𐍒",
+  "𐍓",
+  "𐍔",
+  "𐍕",
+  "𐍖",
+  "𐍗",
+  "𐍘",
+  "𐍙",
+  "𐍚",
+  "𐍛",
+  "𐍜",
+  "𐍝",
+  "𐍞",
+  "𐍟",
+  "𐍠",
+  "𐍡",
+  "𐍢",
+  "𐍣",
+  "𐍤",
+  "𐍥",
+  "𐍦",
+  "𐍧",
+  "𐍨",
+  "𐍩",
+  "𐍪",
+  "𐍫",
+  "𐍬",
+  "𐍭",
+  "𐍮",
+  "𐍯",
+  "𐍰",
+  "𐍱",
+  "𐍲",
+  "𐍳",
+  "𐍴",
+  "𐍵"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Old Permic",
+    "file": "NotoSansOldPermic-Regular.ttf",
+    "sha256": "a0a446342fbb13aee85bdfd77b27362ca9b5a4fd8f8fa4318ee33e41dc581bf6"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 11400,
+ "epochs": 12,
+ "best_epoch": [
+  8
+ ],
+ "seeds": 1,
+ "temperature": 0.531,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9769736842105263,
+  "balanced": 0.9769736842105263
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "7db96546d35f703cd3c92972892d3083b7101cd60b54c0b72673e1e5ef5665e0"
+}

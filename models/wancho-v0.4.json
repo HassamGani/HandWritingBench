@@ -1,0 +1,91 @@
+{
+ "name": "wancho-v0.4",
+ "alphabet": "wancho",
+ "classes": [
+  "𞋀",
+  "𞋁",
+  "𞋂",
+  "𞋃",
+  "𞋄",
+  "𞋅",
+  "𞋆",
+  "𞋇",
+  "𞋈",
+  "𞋉",
+  "𞋊",
+  "𞋋",
+  "𞋌",
+  "𞋍",
+  "𞋎",
+  "𞋏",
+  "𞋐",
+  "𞋑",
+  "𞋒",
+  "𞋓",
+  "𞋔",
+  "𞋕",
+  "𞋖",
+  "𞋗",
+  "𞋘",
+  "𞋙",
+  "𞋚",
+  "𞋛",
+  "𞋜",
+  "𞋝",
+  "𞋞",
+  "𞋟",
+  "𞋠",
+  "𞋡",
+  "𞋢",
+  "𞋣",
+  "𞋤",
+  "𞋥",
+  "𞋦",
+  "𞋧",
+  "𞋨",
+  "𞋩",
+  "𞋪",
+  "𞋫"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Wancho",
+    "file": "NotoSansWancho-Regular.ttf",
+    "sha256": "a5cb8b34da1c91b55a789efd79188c103c34dd9d55218d40087afd3850e97f31"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 13200,
+ "epochs": 12,
+ "best_epoch": [
+  6
+ ],
+ "seeds": 1,
+ "temperature": 0.508,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9971590909090909,
+  "balanced": 0.9971590909090909
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "9deb4500c6f566b464bb81c6a1ea000bede993650bb1b47f6c9b8faedeecdafc"
+}

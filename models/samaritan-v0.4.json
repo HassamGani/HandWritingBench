@@ -1,0 +1,69 @@
+{
+ "name": "samaritan-v0.4",
+ "alphabet": "samaritan",
+ "classes": [
+  "ࠀ",
+  "ࠁ",
+  "ࠂ",
+  "ࠃ",
+  "ࠄ",
+  "ࠅ",
+  "ࠆ",
+  "ࠇ",
+  "ࠈ",
+  "ࠉ",
+  "ࠊ",
+  "ࠋ",
+  "ࠌ",
+  "ࠍ",
+  "ࠎ",
+  "ࠏ",
+  "ࠐ",
+  "ࠑ",
+  "ࠒ",
+  "ࠓ",
+  "ࠔ",
+  "ࠕ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Samaritan",
+    "file": "NotoSansSamaritan-Regular.ttf",
+    "sha256": "b2e86cdcac51ecae8948cac8a6925bb1c2e98f8a64e5cf83bb05f1294cd79810"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 6600,
+ "epochs": 12,
+ "best_epoch": [
+  4
+ ],
+ "seeds": 1,
+ "temperature": 0.3,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "fb90669b2d4afc991824120d6a8574aeeccabce9c56a61b7598467340ee66484"
+}
