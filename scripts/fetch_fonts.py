@@ -65,12 +65,16 @@ def download(url, dst):
         dst.write_bytes(r.read())
 
 
-def resolve():
+def resolve(only_new=False):
     meta = json.loads(urllib.request.urlopen(META_URL, timeout=60, context=CTX).read())["familyMetadataList"]
-    sha = gh("repos/google/fonts/commits/main")["sha"]
-    lock = {"google_fonts_commit": sha, "alphabets": {}}
+    if only_new and LOCK.exists():
+        lock = json.loads(LOCK.read_text())  # keep the pinned commit and existing picks
+        sha = lock["google_fonts_commit"]
+    else:
+        sha = gh("repos/google/fonts/commits/main")["sha"]
+        lock = {"google_fonts_commit": sha, "alphabets": {}}
     for a in ALPHABETS:
-        if a.key == "latin":
+        if a.key == "latin" or (only_new and a.key in lock["alphabets"]):
             continue
         fams = [m for m in meta if set(m.get("subsets", [])) & set(a.gf) and m.get("category") not in SKIP_CATEGORIES
                 and not SKIP_FAMILIES.search(m["family"])]
@@ -120,4 +124,6 @@ def fetch_locked():
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--locked", action="store_true")
-    fetch_locked() if ap.parse_args().locked else resolve()
+    ap.add_argument("--only-new", action="store_true", help="add alphabets missing from the lock, same commit")
+    a = ap.parse_args()
+    fetch_locked() if a.locked else resolve(a.only_new)

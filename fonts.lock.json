@@ -3266,6 +3266,999 @@
     "sha256": "aa54e0cd1c01e7e8ac9887eaf3dac3e7ef2df9c2b58049ef8a0ab8b1a76cbe1e",
     "coverage": 1.0
    }
+  ],
+  "balinese": [
+   {
+    "family": "Noto Serif Balinese",
+    "category": "Serif",
+    "path": "ofl/notoserifbalinese/NotoSerifBalinese-Regular.ttf",
+    "file": "NotoSerifBalinese-Regular.ttf",
+    "sha256": "781c98b8d5ff17e9647442f2d2e931c2033df17b3ce63cb376fc9b6c8ede05d4",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Balinese",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbalinese/NotoSansBalinese[wght].ttf",
+    "file": "NotoSansBalinese[wght].ttf",
+    "sha256": "ccca9d3492b86930d8e0272d1e06d9e2e11147489b04d9858aa58e766cc30374",
+    "coverage": 1.0
+   }
+  ],
+  "batak": [
+   {
+    "family": "Noto Sans Batak",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbatak/NotoSansBatak-Regular.ttf",
+    "file": "NotoSansBatak-Regular.ttf",
+    "sha256": "fc3809692a0ad247a56889af623eaf7a73089c0a78bbe5306443add3d23313a6",
+    "coverage": 1.0
+   }
+  ],
+  "buginese": [
+   {
+    "family": "Noto Sans Buginese",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbuginese/NotoSansBuginese-Regular.ttf",
+    "file": "NotoSansBuginese-Regular.ttf",
+    "sha256": "af1ed02af9eff48e872c3fcf922ba72053b776c2f0d1a0d4cb36e57d5e3508b5",
+    "coverage": 1.0
+   }
+  ],
+  "sundanese": [
+   {
+    "family": "Noto Sans Sundanese",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssundanese/NotoSansSundanese[wght].ttf",
+    "file": "NotoSansSundanese[wght].ttf",
+    "sha256": "28282be9cce5a96e6b5baa3cc48044187f65d610879ff29b1dc5fe5ea465df6a",
+    "coverage": 1.0
+   }
+  ],
+  "rejang": [
+   {
+    "family": "Noto Sans Rejang",
+    "category": "Sans Serif",
+    "path": "ofl/notosansrejang/NotoSansRejang-Regular.ttf",
+    "file": "NotoSansRejang-Regular.ttf",
+    "sha256": "4350c7672a035d21bacf9909a17da374aec268e5394cf66302838c194eeaca47",
+    "coverage": 1.0
+   }
+  ],
+  "cham": [
+   {
+    "family": "Noto Sans Cham",
+    "category": "Sans Serif",
+    "path": "ofl/notosanscham/NotoSansCham[wght].ttf",
+    "file": "NotoSansCham[wght].ttf",
+    "sha256": "0b4db93cffadd22de4668cdf8238725f0eedf5c2fcbf89a36bb24ccc82a1d889",
+    "coverage": 1.0
+   }
+  ],
+  "tai-le": [
+   {
+    "family": "Noto Sans Tai Le",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstaile/NotoSansTaiLe-Regular.ttf",
+    "file": "NotoSansTaiLe-Regular.ttf",
+    "sha256": "eeb4c41d8e1a6075f7e580cc159dff424e2f61e64f5edcd57b5e8ca57d58a2ea",
+    "coverage": 1.0
+   }
+  ],
+  "new-tai-lue": [
+   {
+    "family": "Dai Banna SIL",
+    "category": "Serif",
+    "path": "ofl/daibannasil/DaiBannaSIL-Regular.ttf",
+    "file": "DaiBannaSIL-Regular.ttf",
+    "sha256": "7756d1c25925ba89130aef675d2d11f419602564c1091e9520fef1ac9ed8f193",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans New Tai Lue",
+    "category": "Sans Serif",
+    "path": "ofl/notosansnewtailue/NotoSansNewTaiLue[wght].ttf",
+    "file": "NotoSansNewTaiLue[wght].ttf",
+    "sha256": "5362f7ab42089804beb05c936bef575f08ab27cf26109c71df99bfa28bda1cb4",
+    "coverage": 1.0
+   }
+  ],
+  "tai-tham": [
+   {
+    "family": "Noto Sans Tai Tham",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstaitham/NotoSansTaiTham[wght].ttf",
+    "file": "NotoSansTaiTham[wght].ttf",
+    "sha256": "a053b99fc5ed0a3e5fb14eecbbf137245cb0b8c34c2cb4ffd0872db3097bcd0a",
+    "coverage": 1.0
+   }
+  ],
+  "tai-viet": [
+   {
+    "family": "Noto Sans Tai Viet",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstaiviet/NotoSansTaiViet-Regular.ttf",
+    "file": "NotoSansTaiViet-Regular.ttf",
+    "sha256": "ba2a5346d6a9c041663fc835cf090efcbb9feb81a620245e7a64ecf6caafc59d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tai Heritage Pro",
+    "category": "Serif",
+    "path": "ofl/taiheritagepro/TaiHeritagePro-Regular.ttf",
+    "file": "TaiHeritagePro-Regular.ttf",
+    "sha256": "dd2e9d518584b2214762ab4de572c5bd2d3955c0d32b74739a5c471412e2bbac",
+    "coverage": 1.0
+   }
+  ],
+  "lepcha": [
+   {
+    "family": "Noto Sans Lepcha",
+    "category": "Sans Serif",
+    "path": "ofl/notosanslepcha/NotoSansLepcha-Regular.ttf",
+    "file": "NotoSansLepcha-Regular.ttf",
+    "sha256": "9624931ae8f9a8a2a45233e5486fac1a80f333a0b3a25f84d0e2484363914f84",
+    "coverage": 1.0
+   },
+   {
+    "family": "Mingzat",
+    "category": "Sans Serif",
+    "path": "ofl/mingzat/Mingzat-Regular.ttf",
+    "file": "Mingzat-Regular.ttf",
+    "sha256": "c1507a565a1d263c6473a2b36944d5244bfa5b6e6f6af023a3dc8c7234fedd05",
+    "coverage": 1.0
+   }
+  ],
+  "limbu": [
+   {
+    "family": "Namdhinggo",
+    "category": "Serif",
+    "path": "ofl/namdhinggo/Namdhinggo-Regular.ttf",
+    "file": "Namdhinggo-Regular.ttf",
+    "sha256": "d0911a345fed5a8b1de1b7db5a6fbed08df4fca5560358613310d7db0ff5d1de",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Limbu",
+    "category": "Sans Serif",
+    "path": "ofl/notosanslimbu/NotoSansLimbu-Regular.ttf",
+    "file": "NotoSansLimbu-Regular.ttf",
+    "sha256": "5a8b4fd72c5a64051332f66fcf46fda1a32a37d130631362378c6b465d852dd5",
+    "coverage": 1.0
+   }
+  ],
+  "meetei-mayek": [
+   {
+    "family": "Noto Sans Meetei Mayek",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmeeteimayek/NotoSansMeeteiMayek[wght].ttf",
+    "file": "NotoSansMeeteiMayek[wght].ttf",
+    "sha256": "d56eb6d54ad8aad3570b7ee07f64866832a04f29bce6e5f183918c9eaf008fac",
+    "coverage": 1.0
+   }
+  ],
+  "syloti-nagri": [
+   {
+    "family": "Noto Sans Syloti Nagri",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssylotinagri/NotoSansSylotiNagri-Regular.ttf",
+    "file": "NotoSansSylotiNagri-Regular.ttf",
+    "sha256": "86125713777b45f80ea7f08abe9cc02e2e25cf9a475f8c7e15d29180ab980571",
+    "coverage": 1.0
+   }
+  ],
+  "saurashtra": [
+   {
+    "family": "Noto Sans Saurashtra",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssaurashtra/NotoSansSaurashtra-Regular.ttf",
+    "file": "NotoSansSaurashtra-Regular.ttf",
+    "sha256": "d2df88b4e293636d04c363b13dc5c6f88fca0e9a3b6fece52f12c11d77e9e566",
+    "coverage": 1.0
+   }
+  ],
+  "chakma": [
+   {
+    "family": "Noto Sans Chakma",
+    "category": "Sans Serif",
+    "path": "ofl/notosanschakma/NotoSansChakma-Regular.ttf",
+    "file": "NotoSansChakma-Regular.ttf",
+    "sha256": "0e560c61cfe0f378377741770d38b5f802457455dd78aaf4b89614082659fba5",
+    "coverage": 1.0
+   }
+  ],
+  "sora-sompeng": [
+   {
+    "family": "Noto Sans Sora Sompeng",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssorasompeng/NotoSansSoraSompeng[wght].ttf",
+    "file": "NotoSansSoraSompeng[wght].ttf",
+    "sha256": "1fe66f4904e960705b68c60f7e92ae579ef80bab30f29b894d44eed1edc306e0",
+    "coverage": 1.0
+   }
+  ],
+  "wancho": [
+   {
+    "family": "Noto Sans Wancho",
+    "category": "Sans Serif",
+    "path": "ofl/notosanswancho/NotoSansWancho-Regular.ttf",
+    "file": "NotoSansWancho-Regular.ttf",
+    "sha256": "a5cb8b34da1c91b55a789efd79188c103c34dd9d55218d40087afd3850e97f31",
+    "coverage": 1.0
+   }
+  ],
+  "nag-mundari": [
+   {
+    "family": "Noto Sans Nag Mundari",
+    "category": "Sans Serif",
+    "path": "ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf",
+    "file": "NotoSansNagMundari[wght].ttf",
+    "sha256": "326db3178a5cb37f602c2b4ee32fdcb8b97e9526954f5c715b3c11545ec8a424",
+    "coverage": 1.0
+   }
+  ],
+  "toto": [
+   {
+    "family": "Noto Serif Toto",
+    "category": "Serif",
+    "path": "ofl/notoseriftoto/NotoSerifToto[wght].ttf",
+    "file": "NotoSerifToto[wght].ttf",
+    "sha256": "086c2319907580c721843a02665a02d2b130f7bd0e93e63b98dcfd3e817675c9",
+    "coverage": 1.0
+   }
+  ],
+  "tangsa": [
+   {
+    "family": "Noto Sans Tangsa",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstangsa/NotoSansTangsa[wght].ttf",
+    "file": "NotoSansTangsa[wght].ttf",
+    "sha256": "2ed50f0ba084742ce2dfe4909bc529131272d9468b1aa341d5866fbc1a1be48f",
+    "coverage": 1.0
+   }
+  ],
+  "osmanya": [
+   {
+    "family": "Noto Sans Osmanya",
+    "category": "Sans Serif",
+    "path": "ofl/notosansosmanya/NotoSansOsmanya-Regular.ttf",
+    "file": "NotoSansOsmanya-Regular.ttf",
+    "sha256": "8832125f106a0be9d4b7e6442493a96f2d6626b8edb2cc20f53c48e9b73fd5a7",
+    "coverage": 1.0
+   }
+  ],
+  "hanifi-rohingya": [
+   {
+    "family": "Noto Sans Hanifi Rohingya",
+    "category": "Sans Serif",
+    "path": "ofl/notosanshanifirohingya/NotoSansHanifiRohingya[wght].ttf",
+    "file": "NotoSansHanifiRohingya[wght].ttf",
+    "sha256": "8ae85e850664b2d319c3b359bbf59b285e0e472afcaf96e34f37810e4b441d1b",
+    "coverage": 1.0
+   }
+  ],
+  "bassa-vah": [
+   {
+    "family": "Noto Sans Bassa Vah",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbassavah/NotoSansBassaVah[wght].ttf",
+    "file": "NotoSansBassaVah[wght].ttf",
+    "sha256": "b6c065b905d4ca228580027164f2102fae76215724c43a36e8ebf3c7ee81b8fb",
+    "coverage": 1.0
+   }
+  ],
+  "medefaidrin": [
+   {
+    "family": "Noto Sans Medefaidrin",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmedefaidrin/NotoSansMedefaidrin[wght].ttf",
+    "file": "NotoSansMedefaidrin[wght].ttf",
+    "sha256": "538e31337f09ceaf290e374c2e8a649211ba56523482c2f6674e2868b5555546",
+    "coverage": 1.0
+   }
+  ],
+  "warang-citi": [
+   {
+    "family": "Noto Sans Warang Citi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanswarangciti/NotoSansWarangCiti-Regular.ttf",
+    "file": "NotoSansWarangCiti-Regular.ttf",
+    "sha256": "f4c6ec5458b85e1d7d9452fb404bf0c4762e98ac7eea95aa6a7e5798cb6ffdba",
+    "coverage": 1.0
+   }
+  ],
+  "mro": [
+   {
+    "family": "Noto Sans Mro",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmro/NotoSansMro-Regular.ttf",
+    "file": "NotoSansMro-Regular.ttf",
+    "sha256": "fe05fbcf65aa3a42f446437a6e2db4e9ccf2a1d2fd85fddfd93af3df1d729cf9",
+    "coverage": 1.0
+   }
+  ],
+  "nyiakeng-puachue-hmong": [
+   {
+    "family": "Noto Serif NP Hmong",
+    "category": "Serif",
+    "path": "ofl/notoserifnphmong/NotoSerifNPHmong[wght].ttf",
+    "file": "NotoSerifNPHmong[wght].ttf",
+    "sha256": "6917f29fdcb76668b8ad4c85038d54815b5899c49242c82b76c3b3dcc2bb216f",
+    "coverage": 1.0
+   }
+  ],
+  "pau-cin-hau": [
+   {
+    "family": "Noto Sans Pau Cin Hau",
+    "category": "Sans Serif",
+    "path": "ofl/notosanspaucinhau/NotoSansPauCinHau-Regular.ttf",
+    "file": "NotoSansPauCinHau-Regular.ttf",
+    "sha256": "148f6ad11e71c58a4c557af7f492a6478b3e96700202a62e7013dd7031057a83",
+    "coverage": 1.0
+   }
+  ],
+  "phags-pa": [
+   {
+    "family": "Noto Sans PhagsPa",
+    "category": "Sans Serif",
+    "path": "ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf",
+    "file": "NotoSansPhagsPa-Regular.ttf",
+    "sha256": "1f90e0a9e6b83c903e4ed9470261ba4e61b7068de2063516665b62c1bf389dab",
+    "coverage": 1.0
+   }
+  ],
+  "old-italic": [
+   {
+    "family": "Cardo",
+    "category": "Serif",
+    "path": "ofl/cardo/Cardo-Regular.ttf",
+    "file": "Cardo-Regular.ttf",
+    "sha256": "bcb81f376f1c3892c7026dabf2beafbd1a7ee8ae95d132ee7d4ff7d7c3988261",
+    "coverage": 0.969
+   }
+  ],
+  "old-permic": [
+   {
+    "family": "Noto Sans Old Permic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldpermic/NotoSansOldPermic-Regular.ttf",
+    "file": "NotoSansOldPermic-Regular.ttf",
+    "sha256": "a0a446342fbb13aee85bdfd77b27362ca9b5a4fd8f8fa4318ee33e41dc581bf6",
+    "coverage": 1.0
+   }
+  ],
+  "old-turkic": [
+   {
+    "family": "Noto Sans Old Turkic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldturkic/NotoSansOldTurkic-Regular.ttf",
+    "file": "NotoSansOldTurkic-Regular.ttf",
+    "sha256": "b8e3f206a9fdaea960a988bb1ed3275391eb534d127859611dca87f2204da4a7",
+    "coverage": 1.0
+   }
+  ],
+  "old-hungarian": [
+   {
+    "family": "Noto Sans Old Hungarian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldhungarian/NotoSansOldHungarian-Regular.ttf",
+    "file": "NotoSansOldHungarian-Regular.ttf",
+    "sha256": "c23b363986fabc168af489c5d4eaf3c10fbb110599ffe6ca3b2eac777aa73079",
+    "coverage": 1.0
+   }
+  ],
+  "ugaritic": [
+   {
+    "family": "Noto Sans Ugaritic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansugaritic/NotoSansUgaritic-Regular.ttf",
+    "file": "NotoSansUgaritic-Regular.ttf",
+    "sha256": "68d5a37ab45ba3ab091dda2aa392698963a90e2b399e131394892b8224da6491",
+    "coverage": 1.0
+   }
+  ],
+  "old-persian": [
+   {
+    "family": "Noto Sans Old Persian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldpersian/NotoSansOldPersian-Regular.ttf",
+    "file": "NotoSansOldPersian-Regular.ttf",
+    "sha256": "fa2d24830f472b8c0974079be5150caffd4fd0b9d6daf431453f277720895fdb",
+    "coverage": 1.0
+   }
+  ],
+  "carian": [
+   {
+    "family": "Noto Sans Carian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanscarian/NotoSansCarian-Regular.ttf",
+    "file": "NotoSansCarian-Regular.ttf",
+    "sha256": "73f83bf71bac6046bd409f42706cd5e3706bce4521150302be3010ef6a161ecd",
+    "coverage": 1.0
+   }
+  ],
+  "lycian": [
+   {
+    "family": "Noto Sans Lycian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanslycian/NotoSansLycian-Regular.ttf",
+    "file": "NotoSansLycian-Regular.ttf",
+    "sha256": "81ad6994c822aba066219b06e6e097dcedba449b33c6fe6ceb79c2cdeb88664f",
+    "coverage": 1.0
+   }
+  ],
+  "lydian": [
+   {
+    "family": "Noto Sans Lydian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanslydian/NotoSansLydian-Regular.ttf",
+    "file": "NotoSansLydian-Regular.ttf",
+    "sha256": "25466c3aa089d25abf5829a29c6a72738e006a21865a48e03c58411b0227920a",
+    "coverage": 1.0
+   }
+  ],
+  "avestan": [
+   {
+    "family": "Noto Sans Avestan",
+    "category": "Sans Serif",
+    "path": "ofl/notosansavestan/NotoSansAvestan-Regular.ttf",
+    "file": "NotoSansAvestan-Regular.ttf",
+    "sha256": "fe2ed44b8b3949cddced6c748bb67e161727b133d1e7a67c20385b314d2a4158",
+    "coverage": 1.0
+   }
+  ],
+  "old-south-arabian": [
+   {
+    "family": "Noto Sans Old South Arabian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldsoutharabian/NotoSansOldSouthArabian-Regular.ttf",
+    "file": "NotoSansOldSouthArabian-Regular.ttf",
+    "sha256": "54df22db482aef96a0f4aa7eb9e0a7bc92f4af281dec93ca7d16d03a42ef20a5",
+    "coverage": 1.0
+   }
+  ],
+  "old-north-arabian": [
+   {
+    "family": "Noto Sans Old North Arabian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldnortharabian/NotoSansOldNorthArabian-Regular.ttf",
+    "file": "NotoSansOldNorthArabian-Regular.ttf",
+    "sha256": "27e42ee27587eda9c2521650cca938d4b247e00d55603b0abab0789c2eb2cccb",
+    "coverage": 1.0
+   }
+  ],
+  "nabataean": [
+   {
+    "family": "Noto Sans Nabataean",
+    "category": "Sans Serif",
+    "path": "ofl/notosansnabataean/NotoSansNabataean-Regular.ttf",
+    "file": "NotoSansNabataean-Regular.ttf",
+    "sha256": "b21dc4564143ce3647bfb5c410b8b2f0affb257756693b9578a1328fdf9d82e8",
+    "coverage": 1.0
+   }
+  ],
+  "palmyrene": [
+   {
+    "family": "Noto Sans Palmyrene",
+    "category": "Sans Serif",
+    "path": "ofl/notosanspalmyrene/NotoSansPalmyrene-Regular.ttf",
+    "file": "NotoSansPalmyrene-Regular.ttf",
+    "sha256": "d9cb8aeef761d8f0639bdb182f03048435473f623f7567c9b6477fe320cd8404",
+    "coverage": 1.0
+   }
+  ],
+  "hatran": [
+   {
+    "family": "Noto Sans Hatran",
+    "category": "Sans Serif",
+    "path": "ofl/notosanshatran/NotoSansHatran-Regular.ttf",
+    "file": "NotoSansHatran-Regular.ttf",
+    "sha256": "8d26a25e634783f3fe285868bc71ca396c11d0f760129ce9f85a24f3f943116d",
+    "coverage": 1.0
+   }
+  ],
+  "imperial-aramaic": [
+   {
+    "family": "Noto Sans Imperial Aramaic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansimperialaramaic/NotoSansImperialAramaic-Regular.ttf",
+    "file": "NotoSansImperialAramaic-Regular.ttf",
+    "sha256": "51433e25557eac79df4e447e0b6be4a23bcf3680a60432ebb388a13ea82d227d",
+    "coverage": 1.0
+   }
+  ],
+  "inscriptional-parthian": [
+   {
+    "family": "Noto Sans Inscriptional Parthian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansinscriptionalparthian/NotoSansInscriptionalParthian-Regular.ttf",
+    "file": "NotoSansInscriptionalParthian-Regular.ttf",
+    "sha256": "a3b80af8a1927189a353b03075cbebd454291519dfc60a325070d6f405f5ba50",
+    "coverage": 1.0
+   }
+  ],
+  "inscriptional-pahlavi": [
+   {
+    "family": "Noto Sans Inscriptional Pahlavi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansinscriptionalpahlavi/NotoSansInscriptionalPahlavi-Regular.ttf",
+    "file": "NotoSansInscriptionalPahlavi-Regular.ttf",
+    "sha256": "96aa13745c70634bc902662aaa2a665818d277b04d3318992346c54954237cd6",
+    "coverage": 1.0
+   }
+  ],
+  "psalter-pahlavi": [
+   {
+    "family": "Noto Sans Psalter Pahlavi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanspsalterpahlavi/NotoSansPsalterPahlavi-Regular.ttf",
+    "file": "NotoSansPsalterPahlavi-Regular.ttf",
+    "sha256": "1df586f1f62820f7c71c2d6cf9e2c006673a028ec515b0656fb617b0859e4c14",
+    "coverage": 1.0
+   }
+  ],
+  "manichaean": [
+   {
+    "family": "Noto Sans Manichaean",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmanichaean/NotoSansManichaean-Regular.ttf",
+    "file": "NotoSansManichaean-Regular.ttf",
+    "sha256": "692e31fc2600b1db6a369dd50b808914ebea385530b0d95ca1f103e7943e7487",
+    "coverage": 1.0
+   }
+  ],
+  "mandaic": [
+   {
+    "family": "Noto Sans Mandaic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmandaic/NotoSansMandaic-Regular.ttf",
+    "file": "NotoSansMandaic-Regular.ttf",
+    "sha256": "28f9cdd5221c0c0ce42871996a3ca716e0f2f7be5131423e51021c6397be0fdc",
+    "coverage": 1.0
+   }
+  ],
+  "elbasan": [
+   {
+    "family": "Noto Sans Elbasan",
+    "category": "Sans Serif",
+    "path": "ofl/notosanselbasan/NotoSansElbasan-Regular.ttf",
+    "file": "NotoSansElbasan-Regular.ttf",
+    "sha256": "fce315f8ec66dd6f627cd8e2d076d622ebb244ef609def9621f820f209eaf576",
+    "coverage": 1.0
+   }
+  ],
+  "caucasian-albanian": [
+   {
+    "family": "Noto Sans Caucasian Albanian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanscaucasianalbanian/NotoSansCaucasianAlbanian-Regular.ttf",
+    "file": "NotoSansCaucasianAlbanian-Regular.ttf",
+    "sha256": "7d5a81e7f9f90eb1aaef9935b2c4d68b6300939a2df9dbb9472b38a4fbec50bc",
+    "coverage": 1.0
+   }
+  ],
+  "kharoshthi": [
+   {
+    "family": "Noto Sans Kharoshthi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskharoshthi/NotoSansKharoshthi-Regular.ttf",
+    "file": "NotoSansKharoshthi-Regular.ttf",
+    "sha256": "e1cc4bd5abc3c0efe6cb102a30b543371c8a42d12ed661bcc4c3f3e3421ee670",
+    "coverage": 1.0
+   }
+  ],
+  "brahmi": [
+   {
+    "family": "Noto Sans Brahmi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbrahmi/NotoSansBrahmi-Regular.ttf",
+    "file": "NotoSansBrahmi-Regular.ttf",
+    "sha256": "3e3b877c30f3fa51328fd4fb96bf2f66bdb922c36c446ed0bb94bde0f90729d3",
+    "coverage": 1.0
+   }
+  ],
+  "sogdian": [
+   {
+    "family": "Noto Sans Sogdian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssogdian/NotoSansSogdian-Regular.ttf",
+    "file": "NotoSansSogdian-Regular.ttf",
+    "sha256": "e1575de303408101b8c8a6f1a812936b2b2e2eab5d9cab6b1926883f3fd73642",
+    "coverage": 1.0
+   }
+  ],
+  "old-sogdian": [
+   {
+    "family": "Noto Sans Old Sogdian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansoldsogdian/NotoSansOldSogdian-Regular.ttf",
+    "file": "NotoSansOldSogdian-Regular.ttf",
+    "sha256": "3686573e4175d14e8681cdd7bdf10b57762ded8bc3e5a5fa0083e4e14f4f2613",
+    "coverage": 1.0
+   }
+  ],
+  "elymaic": [
+   {
+    "family": "Noto Sans Elymaic",
+    "category": "Sans Serif",
+    "path": "ofl/notosanselymaic/NotoSansElymaic-Regular.ttf",
+    "file": "NotoSansElymaic-Regular.ttf",
+    "sha256": "4a4772cbb8a278019152bafd58fef3892fae055d0b137f3fb1f61663960e156b",
+    "coverage": 1.0
+   }
+  ],
+  "chorasmian": [
+   {
+    "family": "Noto Sans Chorasmian",
+    "category": "Sans Serif",
+    "path": "ofl/notosanschorasmian/NotoSansChorasmian-Regular.ttf",
+    "file": "NotoSansChorasmian-Regular.ttf",
+    "sha256": "30496cc8f77c1ef3f97f3c61791a579c4aa97983e8678ffc81a341151af5756b",
+    "coverage": 1.0
+   }
+  ],
+  "meroitic-cursive": [
+   {
+    "family": "Noto Sans Meroitic",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmeroitic/NotoSansMeroitic-Regular.ttf",
+    "file": "NotoSansMeroitic-Regular.ttf",
+    "sha256": "0a9920e60a884d517c9385f68bef840d380ea0918b397a02357a882c28acca69",
+    "coverage": 1.0
+   }
+  ],
+  "cypriot": [
+   {
+    "family": "Noto Sans Cypriot",
+    "category": "Sans Serif",
+    "path": "ofl/notosanscypriot/NotoSansCypriot-Regular.ttf",
+    "file": "NotoSansCypriot-Regular.ttf",
+    "sha256": "80590aed2c4223ee0ca53fda21281236529dcc637451d016248559c83880d14d",
+    "coverage": 1.0
+   }
+  ],
+  "yezidi": [
+   {
+    "family": "Noto Serif Yezidi",
+    "category": "Serif",
+    "path": "ofl/notoserifyezidi/NotoSerifYezidi[wght].ttf",
+    "file": "NotoSerifYezidi[wght].ttf",
+    "sha256": "807b3ec568b2333601e297484565e1ff48adb014aa4d8aaa7eba23dc04e44e05",
+    "coverage": 1.0
+   }
+  ],
+  "tagalog": [
+   {
+    "family": "Noto Sans Tagalog",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstagalog/NotoSansTagalog-Regular.ttf",
+    "file": "NotoSansTagalog-Regular.ttf",
+    "sha256": "871a66319d10d1a027eee889f75ea49be0b7d2a4e97acd6bf7f7a0ed1d741aac",
+    "coverage": 1.0
+   }
+  ],
+  "hanunoo": [
+   {
+    "family": "Noto Sans Hanunoo",
+    "category": "Sans Serif",
+    "path": "ofl/notosanshanunoo/NotoSansHanunoo-Regular.ttf",
+    "file": "NotoSansHanunoo-Regular.ttf",
+    "sha256": "bdf8e293a79d753fcff1c3fdfc5e09fdfd8141cd08dbf2ac1268a24f4549a005",
+    "coverage": 1.0
+   }
+  ],
+  "buhid": [
+   {
+    "family": "Noto Sans Buhid",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbuhid/NotoSansBuhid-Regular.ttf",
+    "file": "NotoSansBuhid-Regular.ttf",
+    "sha256": "70408dbcf0da33d12d3b582305057a63a3ea132b4bf313027834e5b9b6a7d886",
+    "coverage": 1.0
+   }
+  ],
+  "tagbanwa": [
+   {
+    "family": "Noto Sans Tagbanwa",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstagbanwa/NotoSansTagbanwa-Regular.ttf",
+    "file": "NotoSansTagbanwa-Regular.ttf",
+    "sha256": "9f9288024e3eddfd3ce77088c4806e0515d47aa093b1a04bc7bc24bdfd5d998a",
+    "coverage": 1.0
+   }
+  ],
+  "makasar": [
+   {
+    "family": "Noto Serif Makasar",
+    "category": "Serif",
+    "path": "ofl/notoserifmakasar/NotoSerifMakasar-Regular.ttf",
+    "file": "NotoSerifMakasar-Regular.ttf",
+    "sha256": "f4c5619563060fb67fc9ef26e755ee8a9d4a27ba22e2938f25ffcd1e2b547f94",
+    "coverage": 1.0
+   }
+  ],
+  "ahom": [
+   {
+    "family": "Noto Serif Ahom",
+    "category": "Serif",
+    "path": "ofl/notoserifahom/NotoSerifAhom-Regular.ttf",
+    "file": "NotoSerifAhom-Regular.ttf",
+    "sha256": "2db70c33f5ef1796753743a87817278094fb031ba05d6b51d359c8cb5929631b",
+    "coverage": 1.0
+   }
+  ],
+  "masaram-gondi": [
+   {
+    "family": "Noto Sans Masaram Gondi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmasaramgondi/NotoSansMasaramGondi-Regular.ttf",
+    "file": "NotoSansMasaramGondi-Regular.ttf",
+    "sha256": "e1caa285f93023d2cdf8e9594310062b8310a3d6addf6b56103a9f828198c98f",
+    "coverage": 1.0
+   }
+  ],
+  "gunjala-gondi": [
+   {
+    "family": "Narnoor",
+    "category": "Sans Serif",
+    "path": "ofl/narnoor/Narnoor-Regular.ttf",
+    "file": "Narnoor-Regular.ttf",
+    "sha256": "6681a857f121a01544c1c0d7a77513b9af0031e92a5087332e9fc924e013acc4",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Gunjala Gondi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansgunjalagondi/NotoSansGunjalaGondi[wght].ttf",
+    "file": "NotoSansGunjalaGondi[wght].ttf",
+    "sha256": "1de8a430d5c176994d1c5ae61151af141ae39fcb38a29f340b1f46e7ad9522d4",
+    "coverage": 1.0
+   }
+  ],
+  "kaithi": [
+   {
+    "family": "Noto Sans Kaithi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskaithi/NotoSansKaithi-Regular.ttf",
+    "file": "NotoSansKaithi-Regular.ttf",
+    "sha256": "e33f6b7e0c9d3c4edfb3f9bf9c00b0814bef14f25fef9d2c6a8d1451520ffe43",
+    "coverage": 1.0
+   }
+  ],
+  "sharada": [
+   {
+    "family": "Noto Sans Sharada",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssharada/NotoSansSharada-Regular.ttf",
+    "file": "NotoSansSharada-Regular.ttf",
+    "sha256": "2ccfb8e72773d318c03b8414ad82686c97ee65a9825fdb1a388e376c4df13372",
+    "coverage": 1.0
+   }
+  ],
+  "takri": [
+   {
+    "family": "Noto Sans Takri",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstakri/NotoSansTakri-Regular.ttf",
+    "file": "NotoSansTakri-Regular.ttf",
+    "sha256": "129764150a358e24eb65ec117d140440e84b28bf4aad23a608fe9526f10c4701",
+    "coverage": 1.0
+   }
+  ],
+  "modi": [
+   {
+    "family": "Noto Sans Modi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmodi/NotoSansModi-Regular.ttf",
+    "file": "NotoSansModi-Regular.ttf",
+    "sha256": "df1b8c6736fde0e7d8838370b336e4b22f84b465c81c817a8eceaab5d41ff33f",
+    "coverage": 1.0
+   }
+  ],
+  "tirhuta": [
+   {
+    "family": "Noto Sans Tirhuta",
+    "category": "Sans Serif",
+    "path": "ofl/notosanstirhuta/NotoSansTirhuta-Regular.ttf",
+    "file": "NotoSansTirhuta-Regular.ttf",
+    "sha256": "ad7123ee63118b83ed2f723591e5e861baad8dd157508b8339362850c6036efe",
+    "coverage": 1.0
+   }
+  ],
+  "siddham": [
+   {
+    "family": "Noto Sans Siddham",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssiddham/NotoSansSiddham-Regular.ttf",
+    "file": "NotoSansSiddham-Regular.ttf",
+    "sha256": "8ae4c893d5df6a4e418e7cd19ad6cc7fb95c7b9e04a772072a102fca74ca0185",
+    "coverage": 1.0
+   }
+  ],
+  "newa": [
+   {
+    "family": "Noto Sans Newa",
+    "category": "Sans Serif",
+    "path": "ofl/notosansnewa/NotoSansNewa-Regular.ttf",
+    "file": "NotoSansNewa-Regular.ttf",
+    "sha256": "5a67f2e2a94eb493076dbb708a91ee4d48cd204c608f531077ad7c624b524e9e",
+    "coverage": 1.0
+   }
+  ],
+  "bhaiksuki": [
+   {
+    "family": "Noto Sans Bhaiksuki",
+    "category": "Sans Serif",
+    "path": "ofl/notosansbhaiksuki/NotoSansBhaiksuki-Regular.ttf",
+    "file": "NotoSansBhaiksuki-Regular.ttf",
+    "sha256": "eac343bece0d783218f3ab574df20217c0e165de3d04cd6fef8b47934605e0d9",
+    "coverage": 1.0
+   }
+  ],
+  "khojki": [
+   {
+    "family": "Noto Sans Khojki",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskhojki/NotoSansKhojki-Regular.ttf",
+    "file": "NotoSansKhojki-Regular.ttf",
+    "sha256": "0b50d1f6d4f8c4254095eb3a9a7603444d9f30e21d8dca1305971288b8e5be1b",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif Khojki",
+    "category": "Serif",
+    "path": "ofl/notoserifkhojki/NotoSerifKhojki[wght].ttf",
+    "file": "NotoSerifKhojki[wght].ttf",
+    "sha256": "d3d89a3fbf6ed2bd0761481332c2a6ab06db4f0500d3775accd94d31829697a0",
+    "coverage": 1.0
+   }
+  ],
+  "khudawadi": [
+   {
+    "family": "Noto Sans Khudawadi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskhudawadi/NotoSansKhudawadi-Regular.ttf",
+    "file": "NotoSansKhudawadi-Regular.ttf",
+    "sha256": "1650e84136b1e9a4e3b4e8f2e96b3542be7587716c58b4c0da6814ed1d87a721",
+    "coverage": 1.0
+   }
+  ],
+  "mahajani": [
+   {
+    "family": "Noto Sans Mahajani",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmahajani/NotoSansMahajani-Regular.ttf",
+    "file": "NotoSansMahajani-Regular.ttf",
+    "sha256": "a48694e1ea0178e11df1b9a760d7ad53b6aa3a7b86e5d8c18dfb37e144ae69c0",
+    "coverage": 1.0
+   }
+  ],
+  "multani": [
+   {
+    "family": "Noto Sans Multani",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmultani/NotoSansMultani-Regular.ttf",
+    "file": "NotoSansMultani-Regular.ttf",
+    "sha256": "fe39d78a4f0acae8e5033ac59aa7af3f8664410c048a3b58b5d76ea44548c090",
+    "coverage": 1.0
+   }
+  ],
+  "dogra": [
+   {
+    "family": "Noto Serif Dogra",
+    "category": "Serif",
+    "path": "ofl/notoserifdogra/NotoSerifDogra-Regular.ttf",
+    "file": "NotoSerifDogra-Regular.ttf",
+    "sha256": "82c4680f67a8437f6e237adbc5da559751bb3fcd251e9b82c6d7bd9879896024",
+    "coverage": 1.0
+   }
+  ],
+  "nandinagari": [
+   {
+    "family": "Noto Sans Nandinagari",
+    "category": "Sans Serif",
+    "path": "ofl/notosansnandinagari/NotoSansNandinagari-Regular.ttf",
+    "file": "NotoSansNandinagari-Regular.ttf",
+    "sha256": "ed326d58e570027ecff41cb3f0286a389f52118bf1313273e4ce2faa3d5d5f51",
+    "coverage": 1.0
+   }
+  ],
+  "grantha": [
+   {
+    "family": "Noto Sans Grantha",
+    "category": "Sans Serif",
+    "path": "ofl/notosansgrantha/NotoSansGrantha-Regular.ttf",
+    "file": "NotoSansGrantha-Regular.ttf",
+    "sha256": "a3e57ddeeb9763111d0e4bd6440af2c7b2fa6763fe02ca56570d33e2afbf7ffb",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif Grantha",
+    "category": "Serif",
+    "path": "ofl/notoserifgrantha/NotoSerifGrantha-Regular.ttf",
+    "file": "NotoSerifGrantha-Regular.ttf",
+    "sha256": "f47a1d121f525a1bedffdc836ddbc824c005bbaf25076650df93c5292122f94a",
+    "coverage": 1.0
+   }
+  ],
+  "zanabazar-square": [
+   {
+    "family": "Noto Sans Zanabazar Square",
+    "category": "Sans Serif",
+    "path": "ofl/notosanszanabazarsquare/NotoSansZanabazarSquare-Regular.ttf",
+    "file": "NotoSansZanabazarSquare-Regular.ttf",
+    "sha256": "73419252f55ba853edeb9f635533da240ed612b4dff59cdb48d83948864126c7",
+    "coverage": 1.0
+   }
+  ],
+  "soyombo": [
+   {
+    "family": "Noto Sans Soyombo",
+    "category": "Sans Serif",
+    "path": "ofl/notosanssoyombo/NotoSansSoyombo-Regular.ttf",
+    "file": "NotoSansSoyombo-Regular.ttf",
+    "sha256": "a1ed643ffe8f84fd7c397a6eb0030f58e2722e7acd8b6a2305f33bf569d1bb2f",
+    "coverage": 1.0
+   }
+  ],
+  "marchen": [
+   {
+    "family": "Noto Sans Marchen",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmarchen/NotoSansMarchen-Regular.ttf",
+    "file": "NotoSansMarchen-Regular.ttf",
+    "sha256": "6c8ecfbf4e0b5926ebee810be293c1018f921577b2f6dff22e19ec0a596c7ce3",
+    "coverage": 1.0
+   }
+  ],
+  "dives-akuru": [],
+  "kawi": [
+   {
+    "family": "Noto Sans Kawi",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskawi/NotoSansKawi[wght].ttf",
+    "file": "NotoSansKawi[wght].ttf",
+    "sha256": "8261be9862d01826ad75af8596129eff72ab4ce098d72b42a4549e4a6292c518",
+    "coverage": 1.0
+   }
+  ],
+  "miao": [
+   {
+    "family": "Noto Sans Miao",
+    "category": "Sans Serif",
+    "path": "ofl/notosansmiao/NotoSansMiao-Regular.ttf",
+    "file": "NotoSansMiao-Regular.ttf",
+    "sha256": "c7c4424d4a36e8ea986153278eb8e4ee26001764dbb1575026825df57ff0ffdf",
+    "coverage": 1.0
+   }
+  ],
+  "pahawh-hmong": [
+   {
+    "family": "Noto Sans Pahawh Hmong",
+    "category": "Sans Serif",
+    "path": "ofl/notosanspahawhhmong/NotoSansPahawhHmong-Regular.ttf",
+    "file": "NotoSansPahawhHmong-Regular.ttf",
+    "sha256": "8b575d82f37d1119c7fb6d0f569fafea572bddfeb83861c8501d4ab5a5faef92",
+    "coverage": 1.0
+   }
+  ],
+  "vithkuqi": [
+   {
+    "family": "Noto Sans Vithkuqi",
+    "category": "Sans Serif",
+    "path": "ofl/notosansvithkuqi/NotoSansVithkuqi[wght].ttf",
+    "file": "NotoSansVithkuqi[wght].ttf",
+    "sha256": "9b7f114c20897d6253fac413a7f66295b6fe18c630202f0564785b6aa79e5067",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif Vithkuqi",
+    "category": "Serif",
+    "path": "ofl/notoserifvithkuqi/NotoSerifVithkuqi[wght].ttf",
+    "file": "NotoSerifVithkuqi[wght].ttf",
+    "sha256": "964ed4f384e11f3bf552a6c2214c4fd16c9240d26942e001b4424cdbc470f8c4",
+    "coverage": 1.0
+   }
   ]
  }
 }

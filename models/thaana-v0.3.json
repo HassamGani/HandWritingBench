@@ -1,0 +1,61 @@
+{
+ "name": "thaana-v0.3",
+ "alphabet": "thaana",
+ "classes": [
+  "ހ",
+  "ށ",
+  "ނ",
+  "ރ",
+  "ބ",
+  "ޅ",
+  "ކ",
+  "އ",
+  "ވ",
+  "މ",
+  "ފ",
+  "ދ",
+  "ތ",
+  "ލ",
+  "ގ",
+  "ޏ",
+  "ސ",
+  "ޑ",
+  "ޒ",
+  "ޓ",
+  "ޔ",
+  "ޕ",
+  "ޖ",
+  "ޗ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Thaana",
+    "file": "NotoSansThaana[wght].ttf",
+    "sha256": "a296795c892a9ec2b0f4d3af315568506ef9fd55920386170992d3935d8866ca"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 7200,
+ "epochs": 12,
+ "best_epoch": 1,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "onnx_sha256": "44cf4c984d7175ad9c6f9dc8505fa6622be3b8e00fa30674e6c7f4a4671acd96"
+}
