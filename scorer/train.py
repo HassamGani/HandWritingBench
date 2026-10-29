@@ -76,7 +76,7 @@ def load_synth(split):
 
 
 class Net(nn.Module):
-    def __init__(self, n=len(CLASSES)):
+    def __init__(self, n=len(CLASSES), size=28):
         super().__init__()
 
         def block(i, o):
@@ -87,7 +87,7 @@ class Net(nn.Module):
             )
 
         self.f = nn.Sequential(block(1, 48), block(48, 96), block(96, 192))
-        self.head = nn.Sequential(nn.Flatten(), nn.Dropout(0.3), nn.Linear(192 * 3 * 3, 384), nn.ReLU(), nn.Dropout(0.3), nn.Linear(384, n))
+        self.head = nn.Sequential(nn.Flatten(), nn.Dropout(0.3), nn.Linear(192 * (size // 8) ** 2, 384), nn.ReLU(), nn.Dropout(0.3), nn.Linear(384, n))
 
     def forward(self, x):
         return self.head(self.f(x))
