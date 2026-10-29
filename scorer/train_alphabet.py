@@ -13,6 +13,7 @@ agent draws). Test fonts are never trained on or used for model selection.
 import argparse
 import hashlib
 import json
+import os
 import sys
 import time
 from multiprocessing import Pool
@@ -33,7 +34,9 @@ FONTS = ROOT / "data" / "fonts"
 CACHE = ROOT / "data" / "cache" / "alphabets"
 OUT = ROOT / "models"
 CONF = ROOT / "src" / "hwbench" / "data" / "confusables.json"
-VERSION = "v0.3"
+VERSION = os.environ.get("HWB_SCORER_VERSION", "v0.3")
+# augmentation recipe from scorer/gap_latin.py; env var so the pool workers see it too
+RECIPE = os.environ.get("HWB_RECIPE", "base")
 PROFILE = {"frame": 160, "pen": 5, "out": 40}
 CONF_THRESH = 0.75
 EPOCHS = 12
@@ -100,6 +103,10 @@ def _affine(rng, strength):
 
 def _sample(args):
     path, ch, seed, strength, mode = args
+    if RECIPE != "base" and strength:
+        import gap_latin
+
+        return gap_latin.sample((path, ch, seed, RECIPE, mode))
     rng = np.random.default_rng(seed)
     m = render(path, ch, 200)
     if m is None:
@@ -289,7 +296,7 @@ def train(key, dev):
         "confusable_groups": groups, "samples": len(x), "epochs": EPOCHS, "best_epoch": best_ep,
         "val": {k: val[k] for k in ("accept", "balanced")}, "val_is_independent": bool(va),
         "test_clean": test, "test_aug": {k: test_aug[k] for k in ("accept", "balanced")} if test_aug else None,
-        "untrainable": missing, "onnx_sha256": hashlib.sha256(onnx_path.read_bytes()).hexdigest(),
+        "untrainable": missing, "recipe": RECIPE, "onnx_sha256": hashlib.sha256(onnx_path.read_bytes()).hexdigest(),
     }
     (OUT / f"{name}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
     weak = sorted((test or val)["per_class"].items(), key=lambda kv: kv[1])[:4]

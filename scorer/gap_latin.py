@@ -29,7 +29,25 @@ RECIPES = {
     "base": {"rot": 0.07, "shear": 0.1, "scale": 0.08, "jitter": 1.5, "wobble": 0.0, "coarse": 0.5},
     # handwriting is wobblier and more slanted than any font
     "wobble": {"rot": 0.12, "shear": 0.25, "scale": 0.15, "jitter": 1.5, "wobble": 6.0, "coarse": 0.5},
+    # writers don't join strokes precisely: each stroke drifts a little on its own, ends over/undershoot
+    "perstroke": {"rot": 0.12, "shear": 0.25, "scale": 0.15, "jitter": 1.5, "wobble": 6.0, "coarse": 0.5,
+                  "stroke_shift": 0.04, "stroke_rot": 0.08, "ends": 0.12},
+    "heavy": {"rot": 0.15, "shear": 0.3, "scale": 0.2, "jitter": 2.0, "wobble": 10.0, "coarse": 0.5,
+              "stroke_shift": 0.06, "stroke_rot": 0.12, "ends": 0.2},
 }
+
+
+def _ends(s, rng, amt):
+    """Extend or trim both ends of a stroke by up to amt of its length."""
+    if len(s) < 2 or amt == 0:
+        return s
+    s = s.copy()
+    for i, j in ((0, 1), (-1, -2)):
+        d = s[i] - s[j]
+        n = np.hypot(*d)
+        if n > 0:
+            s[i] = s[i] + d / n * rng.uniform(-amt, amt) * max(n, 20)
+    return s
 
 
 def _affine(rng, r):
@@ -80,6 +98,13 @@ def sample(args):
         if r["wobble"]:
             s = _densify(s)
             s = s + _smooth_noise(len(s), rng, r["wobble"])
+        if r.get("stroke_shift"):
+            size = max(m.shape)
+            c = s.mean(0)
+            a = rng.normal(0, r["stroke_rot"])
+            R = np.array([[np.cos(a), -np.sin(a)], [np.sin(a), np.cos(a)]])
+            s = (s - c) @ R.T + c + rng.normal(0, r["stroke_shift"] * size, 2)
+            s = _ends(s, rng, r["ends"])
         s = (s - np.array(m.shape[::-1]) / 2) @ M.T + rng.normal(0, r["jitter"], s.shape) + 200
         out.append(np.c_[s, np.zeros(len(s))])
     return normalize(1 - np.asarray(rasterize(out, 400, 400, 6), np.float32) / 255, **PROFILE)
