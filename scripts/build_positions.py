@@ -40,7 +40,7 @@ def _font_boxes(args):
         r = render_on_baseline(path, ch, 200)
         if r is not None:
             m, top = r
-            out[ch] = (-top, -(top + m.shape[0]))  # top and bottom above the baseline, font px
+            out[ch] = (-top, -(top + m.shape[0]), m.shape[1])  # top and bottom above the baseline, and width, font px
     return out
 
 
@@ -67,7 +67,7 @@ def build(a, pool):
     boxes = pool.map(_font_boxes, [(f["local"], c) for f, c in zip(fonts, cov)])
     upper = [c for c in chars if c.isupper()]
     lower = [c for c in chars if c.islower()]
-    vals, xhs = {c: [] for c in chars}, []
+    vals, xhs, widths = {c: [] for c in chars}, [], {c: [] for c in chars}
     for bx in boxes:
         if not bx:
             continue
@@ -81,8 +81,14 @@ def build(a, pool):
                 xhs.append(np.percentile(low, 30) / ref)
         else:
             ref = np.median([v[0] for v in bx.values()])
-        for c, (t, b) in bx.items():
+        for c, (t, b, w) in bx.items():
             vals[c].append((t / ref, b / ref))
+            widths[c].append(w / ref)
+    # tallest top, deepest bottom and widest letter (each letter's median over fonts, so one odd font
+    # doesn't squeeze a whole script), for fitting the guide lines to the canvas
+    med = {c: np.median(v, axis=0) for c, v in vals.items() if v}
+    span = [max(m[0] for m in med.values()), min(min(m[1] for m in med.values()), 0.0),
+            max(np.median(v) for v in widths.values() if v)]
     classes = {}
     for c, v in vals.items():
         if v:
@@ -120,7 +126,8 @@ def build(a, pool):
         if n == 0 or ok / n < STRICT_ACC or gap < STRICT_GAP:
             loose.append(sorted([x, y]))
     return {"xh": round(float(np.median(xhs)), 3) if a.cased and xhs else None, "n_fonts": len(fonts),
-            "classes": classes, "case_groups": _components(case), "loose": loose}
+            "classes": classes, "case_groups": _components(case), "loose": loose,
+            "span": [round(float(s), 3) for s in span]}
 
 
 def _components(pairs):

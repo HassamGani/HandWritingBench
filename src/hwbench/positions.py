@@ -15,6 +15,8 @@ import numpy as np
 
 GUIDE_TOP = 160  # canvas px; the top line is cap height (cased) or typical letter height
 GUIDE_BASE = 400
+CANVAS = 560
+MARGIN = 20
 # how sloppy we allow placement to be, as a fraction of the top-to-baseline height
 FLOOR_SD = 0.1
 
@@ -30,9 +32,18 @@ def guides(alphabet: str) -> dict | None:
     a = table().get(alphabet)
     if a is None:
         return None
-    g = {"top": GUIDE_TOP, "base": GUIDE_BASE}
+    top, base = GUIDE_TOP, GUIDE_BASE
+    hi, lo, w = a.get("span", [0, 0, 0])
+    h, room = base - top, CANVAS - 2 * MARGIN
+    if base - hi * h < MARGIN or base - lo * h > CANVAS - MARGIN or w * h > room:
+        # some letters are much taller, deeper or wider than the usual height (Mandaic, Tai Tham, ...),
+        # so tighten the lines until every letter fits and center the whole range
+        h = min(h, room / (hi - lo), room / w)
+        base = round(MARGIN + hi * h + (room - (hi - lo) * h) / 2, 1)
+        top = round(base - h, 1)
+    g = {"top": top, "base": base}
     if a.get("xh"):
-        g["mid"] = round(GUIDE_BASE - a["xh"] * (GUIDE_BASE - GUIDE_TOP), 1)
+        g["mid"] = round(base - a["xh"] * (base - top), 1)
     return g
 
 
