@@ -1,0 +1,775 @@
+{
+ "google_fonts_commit": "9862abc066c9b83bf84c3e8ed1fc2d8d48f9bbf0",
+ "alphabets": {
+  "greek": [
+   {
+    "family": "Inter",
+    "category": "Sans Serif",
+    "path": "ofl/inter/Inter[opsz,wght].ttf",
+    "file": "Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto",
+    "category": "Sans Serif",
+    "path": "ofl/roboto/Roboto[wdth,wght].ttf",
+    "file": "Roboto[wdth,wght].ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tiny5 Duo",
+    "category": "Display",
+    "path": "ofl/tiny5duo/Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "file": "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "sha256": "d7bb7a796691873bf0e5070bc9ff68d720be50254674ad09e56242af6381112e",
+    "coverage": 1.0
+   },
+   {
+    "family": "Open Sans",
+    "category": "Sans Serif",
+    "path": "ofl/opensans/OpenSans[wdth,wght].ttf",
+    "file": "OpenSans[wdth,wght].ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878",
+    "coverage": 1.0
+   },
+   {
+    "family": "Google Sans",
+    "category": "Sans Serif",
+    "path": "ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Mono",
+    "category": "Monospace",
+    "path": "ofl/robotomono/RobotoMono[wght].ttf",
+    "file": "RobotoMono[wght].ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+    "coverage": 1.0
+   },
+   {
+    "family": "Arimo",
+    "category": "Sans Serif",
+    "path": "ofl/arimo/Arimo[wght].ttf",
+    "file": "Arimo[wght].ttf",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans",
+    "category": "Sans Serif",
+    "path": "ofl/notosans/NotoSans[wdth,wght].ttf",
+    "file": "NotoSans[wdth,wght].ttf",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Source Sans 3",
+    "category": "Sans Serif",
+    "path": "ofl/sourcesans3/SourceSans3[wght].ttf",
+    "file": "SourceSans3[wght].ttf",
+    "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Slab",
+    "category": "Serif",
+    "path": "apache/robotoslab/RobotoSlab[wght].ttf",
+    "file": "RobotoSlab[wght].ttf",
+    "sha256": "786ae192477447d33c6672c3055fba7cbfe45184c9a79e77a14f15716ca05b16",
+    "coverage": 1.0
+   },
+   {
+    "family": "Manrope",
+    "category": "Sans Serif",
+    "path": "ofl/manrope/Manrope[wght].ttf",
+    "file": "Manrope[wght].ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif",
+    "category": "Serif",
+    "path": "ofl/notoserif/NotoSerif[wdth,wght].ttf",
+    "file": "NotoSerif[wdth,wght].ttf",
+    "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+    "coverage": 1.0
+   },
+   {
+    "family": "Ubuntu",
+    "category": "Sans Serif",
+    "path": "ufl/ubuntu/Ubuntu-Regular.ttf",
+    "file": "Ubuntu-Regular.ttf",
+    "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Condensed",
+    "category": "Sans Serif",
+    "path": "ofl/robotocondensed/RobotoCondensed[wght].ttf",
+    "file": "RobotoCondensed[wght].ttf",
+    "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0",
+    "coverage": 1.0
+   },
+   {
+    "family": "JetBrains Mono",
+    "category": "Monospace",
+    "path": "ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
+    "file": "JetBrainsMono[wght].ttf",
+    "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+    "coverage": 1.0
+   },
+   {
+    "family": "Comfortaa",
+    "category": "Display",
+    "path": "ofl/comfortaa/Comfortaa[wght].ttf",
+    "file": "Comfortaa[wght].ttf",
+    "sha256": "0fc3f45dc48b614db9c39181502544b37217ecbf8bee2fb35886992bc96c5bd3",
+    "coverage": 1.0
+   },
+   {
+    "family": "IBM Plex Sans",
+    "category": "Sans Serif",
+    "path": "ofl/ibmplexsans/IBMPlexSans[wdth,wght].ttf",
+    "file": "IBMPlexSans[wdth,wght].ttf",
+    "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+    "coverage": 1.0
+   },
+   {
+    "family": "Play",
+    "category": "Sans Serif",
+    "path": "ofl/play/Play-Regular.ttf",
+    "file": "Play-Regular.ttf",
+    "sha256": "eed0da79005cab35d6ed0eacab594ed67cc643be0b2632fa9e440b3bc5078dc4",
+    "coverage": 1.0
+   },
+   {
+    "family": "News Cycle",
+    "category": "Sans Serif",
+    "path": "ofl/newscycle/NewsCycle-Regular.ttf",
+    "file": "NewsCycle-Regular.ttf",
+    "sha256": "8653ccce06d26dcf19a68704a16063835fc9fea036638c2fcbd5bdc8c94e4e95",
+    "coverage": 1.0
+   },
+   {
+    "family": "Inter Tight",
+    "category": "Sans Serif",
+    "path": "ofl/intertight/InterTight[wght].ttf",
+    "file": "InterTight[wght].ttf",
+    "sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f",
+    "coverage": 1.0
+   },
+   {
+    "family": "Sofia Sans",
+    "category": "Sans Serif",
+    "path": "ofl/sofiasans/SofiaSans[wght].ttf",
+    "file": "SofiaSans[wght].ttf",
+    "sha256": "a3e1019b8867e21b75d26a7b59d4eb2c81d1acf6b69b9ae6cedca269fb68e291",
+    "coverage": 1.0
+   },
+   {
+    "family": "Source Code Pro",
+    "category": "Monospace",
+    "path": "ofl/sourcecodepro/SourceCodePro[wght].ttf",
+    "file": "SourceCodePro[wght].ttf",
+    "sha256": "b400fc584e10aff25d0e775ce181b4fc1c5ea1b5dc37b81aeb2084375b945790",
+    "coverage": 1.0
+   },
+   {
+    "family": "EB Garamond",
+    "category": "Serif",
+    "path": "ofl/ebgaramond/EBGaramond[wght].ttf",
+    "file": "EBGaramond[wght].ttf",
+    "sha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027",
+    "coverage": 1.0
+   },
+   {
+    "family": "Fira Sans Condensed",
+    "category": "Sans Serif",
+    "path": "ofl/firasanscondensed/FiraSansCondensed-Regular.ttf",
+    "file": "FiraSansCondensed-Regular.ttf",
+    "sha256": "c67609f14fc9d328442bfffcc31988b0f76e5575cf460fcc1f3dd8e4912fe257",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Display",
+    "category": "Sans Serif",
+    "path": "ofl/notosansdisplay/NotoSansDisplay[wdth,wght].ttf",
+    "file": "NotoSansDisplay[wdth,wght].ttf",
+    "sha256": "deaa68141fa5ad21bd17d7c11fa79183ceda19b32e40ff5c33874d42f3636dde",
+    "coverage": 1.0
+   },
+   {
+    "family": "Didact Gothic",
+    "category": "Sans Serif",
+    "path": "ofl/didactgothic/DidactGothic-Regular.ttf",
+    "file": "DidactGothic-Regular.ttf",
+    "sha256": "b98f9e091b6337a86f4e0f69c94c31905e1e287782853f472e176b4e28d3f81f",
+    "coverage": 1.0
+   },
+   {
+    "family": "Press Start 2P",
+    "category": "Display",
+    "path": "ofl/pressstart2p/PressStart2P-Regular.ttf",
+    "file": "PressStart2P-Regular.ttf",
+    "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Advent Pro",
+    "category": "Sans Serif",
+    "path": "ofl/adventpro/AdventPro[wdth,wght].ttf",
+    "file": "AdventPro[wdth,wght].ttf",
+    "sha256": "b60ab2920b89bdc4b7dadfb282cadac6e03833e7a80844f9eac096359b2b9766",
+    "coverage": 1.0
+   }
+  ],
+  "cyrillic": [
+   {
+    "family": "Inter",
+    "category": "Sans Serif",
+    "path": "ofl/inter/Inter[opsz,wght].ttf",
+    "file": "Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto",
+    "category": "Sans Serif",
+    "path": "ofl/roboto/Roboto[wdth,wght].ttf",
+    "file": "Roboto[wdth,wght].ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tiny5 Duo",
+    "category": "Display",
+    "path": "ofl/tiny5duo/Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "file": "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "sha256": "d7bb7a796691873bf0e5070bc9ff68d720be50254674ad09e56242af6381112e",
+    "coverage": 1.0
+   },
+   {
+    "family": "Open Sans",
+    "category": "Sans Serif",
+    "path": "ofl/opensans/OpenSans[wdth,wght].ttf",
+    "file": "OpenSans[wdth,wght].ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878",
+    "coverage": 1.0
+   },
+   {
+    "family": "Google Sans",
+    "category": "Sans Serif",
+    "path": "ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Mono",
+    "category": "Monospace",
+    "path": "ofl/robotomono/RobotoMono[wght].ttf",
+    "file": "RobotoMono[wght].ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans JP",
+    "category": "Sans Serif",
+    "path": "ofl/notosansjp/NotoSansJP[wght].ttf",
+    "file": "NotoSansJP[wght].ttf",
+    "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+    "coverage": 1.0
+   },
+   {
+    "family": "Arimo",
+    "category": "Sans Serif",
+    "path": "ofl/arimo/Arimo[wght].ttf",
+    "file": "Arimo[wght].ttf",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans",
+    "category": "Sans Serif",
+    "path": "ofl/notosans/NotoSans[wdth,wght].ttf",
+    "file": "NotoSans[wdth,wght].ttf",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Montserrat",
+    "category": "Sans Serif",
+    "path": "ofl/montserrat/Montserrat[wght].ttf",
+    "file": "Montserrat[wght].ttf",
+    "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+    "coverage": 1.0
+   },
+   {
+    "family": "Nunito",
+    "category": "Sans Serif",
+    "path": "ofl/nunito/Nunito[wght].ttf",
+    "file": "Nunito[wght].ttf",
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "coverage": 1.0
+   },
+   {
+    "family": "Oswald",
+    "category": "Sans Serif",
+    "path": "ofl/oswald/Oswald[wght].ttf",
+    "file": "Oswald[wght].ttf",
+    "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+    "coverage": 1.0
+   },
+   {
+    "family": "Playfair Display",
+    "category": "Serif",
+    "path": "ofl/playfairdisplay/PlayfairDisplay[wght].ttf",
+    "file": "PlayfairDisplay[wght].ttf",
+    "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+    "coverage": 1.0
+   },
+   {
+    "family": "Raleway",
+    "category": "Sans Serif",
+    "path": "ofl/raleway/Raleway[wght].ttf",
+    "file": "Raleway[wght].ttf",
+    "sha256": "8bbcc3eb8275c388f4bcd998832f8a4b943eadbaf6a595205312774b5951aefb",
+    "coverage": 1.0
+   },
+   {
+    "family": "Source Sans 3",
+    "category": "Sans Serif",
+    "path": "ofl/sourcesans3/SourceSans3[wght].ttf",
+    "file": "SourceSans3[wght].ttf",
+    "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+    "coverage": 1.0
+   },
+   {
+    "family": "Jost",
+    "category": "Sans Serif",
+    "path": "ofl/jost/Jost[wght].ttf",
+    "file": "Jost[wght].ttf",
+    "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076",
+    "coverage": 1.0
+   },
+   {
+    "family": "Nunito Sans",
+    "category": "Sans Serif",
+    "path": "ofl/nunitosans/NunitoSans[YTLC,opsz,wdth,wght].ttf",
+    "file": "NunitoSans[YTLC,opsz,wdth,wght].ttf",
+    "sha256": "f934d7142fb4784bf828da485b7dcbd90c0c80d514e9d49a5da0ed3a1ae2491d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Libre Franklin",
+    "category": "Sans Serif",
+    "path": "ofl/librefranklin/LibreFranklin[wght].ttf",
+    "file": "LibreFranklin[wght].ttf",
+    "sha256": "2329f394b10ed1c71107df20fddc11e2bb1b68c1ecbb385f975b36fd64a971f8",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Slab",
+    "category": "Serif",
+    "path": "apache/robotoslab/RobotoSlab[wght].ttf",
+    "file": "RobotoSlab[wght].ttf",
+    "sha256": "786ae192477447d33c6672c3055fba7cbfe45184c9a79e77a14f15716ca05b16",
+    "coverage": 1.0
+   },
+   {
+    "family": "Manrope",
+    "category": "Sans Serif",
+    "path": "ofl/manrope/Manrope[wght].ttf",
+    "file": "Manrope[wght].ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif",
+    "category": "Serif",
+    "path": "ofl/notoserif/NotoSerif[wdth,wght].ttf",
+    "file": "NotoSerif[wdth,wght].ttf",
+    "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geist",
+    "category": "Sans Serif",
+    "path": "ofl/geist/Geist[wght].ttf",
+    "file": "Geist[wght].ttf",
+    "sha256": "73894e0448cae90a92b6c2f8732b7bb9acb7b94c418bff559dad4a18e1de9659",
+    "coverage": 1.0
+   },
+   {
+    "family": "Ubuntu",
+    "category": "Sans Serif",
+    "path": "ufl/ubuntu/Ubuntu-Regular.ttf",
+    "file": "Ubuntu-Regular.ttf",
+    "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64",
+    "coverage": 1.0
+   },
+   {
+    "family": "Merriweather",
+    "category": "Serif",
+    "path": "ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
+    "file": "Merriweather[opsz,wdth,wght].ttf",
+    "sha256": "d0ed0e359e396af7ad05e73dffd11a3a4c326ea0d0283c56bd9361cb2cc86a96",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif JP",
+    "category": "Serif",
+    "path": "ofl/notoserifjp/NotoSerifJP[wght].ttf",
+    "file": "NotoSerifJP[wght].ttf",
+    "sha256": "2fd527ba12b6a44ec30d796d633360da0aeba6c5d4af1304ce12bb4dc15a7dfc",
+    "coverage": 1.0
+   },
+   {
+    "family": "Roboto Condensed",
+    "category": "Sans Serif",
+    "path": "ofl/robotocondensed/RobotoCondensed[wght].ttf",
+    "file": "RobotoCondensed[wght].ttf",
+    "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans KR",
+    "category": "Sans Serif",
+    "path": "ofl/notosanskr/NotoSansKR[wght].ttf",
+    "file": "NotoSansKR[wght].ttf",
+    "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+    "coverage": 1.0
+   },
+   {
+    "family": "Lora",
+    "category": "Serif",
+    "path": "ofl/lora/Lora[wght].ttf",
+    "file": "Lora[wght].ttf",
+    "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+    "coverage": 1.0
+   }
+  ],
+  "armenian": [
+   {
+    "family": "Tiny5 Duo",
+    "category": "Display",
+    "path": "ofl/tiny5duo/Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "file": "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    "sha256": "d7bb7a796691873bf0e5070bc9ff68d720be50254674ad09e56242af6381112e",
+    "coverage": 1.0
+   },
+   {
+    "family": "Google Sans",
+    "category": "Sans Serif",
+    "path": "ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Iosevka Charon",
+    "category": "Monospace",
+    "path": "ofl/iosevkacharon/IosevkaCharon-Regular.ttf",
+    "file": "IosevkaCharon-Regular.ttf",
+    "sha256": "a5a85271575eefce115a0c029c787bc8914d0c771bd1fdfc3776b7280a57d047",
+    "coverage": 1.0
+   },
+   {
+    "family": "Handjet",
+    "category": "Display",
+    "path": "ofl/handjet/Handjet[ELGR,ELSH,wght].ttf",
+    "file": "Handjet[ELGR,ELSH,wght].ttf",
+    "sha256": "9262749e8bb0b73ebcae0e20428689c3c59576eebeb6c4e1020300d2d41bdf4d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif Armenian",
+    "category": "Serif",
+    "path": "ofl/notoserifarmenian/NotoSerifArmenian[wdth,wght].ttf",
+    "file": "NotoSerifArmenian[wdth,wght].ttf",
+    "sha256": "9354b74384d093d59f9a4ad958e188808d58b6f15debeaab18e07bc432f8ce0c",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Armenian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansarmenian/NotoSansArmenian[wdth,wght].ttf",
+    "file": "NotoSansArmenian[wdth,wght].ttf",
+    "sha256": "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tiny5",
+    "category": "Display",
+    "path": "ofl/tiny5/Tiny5[BLED,JITT,ROND,wdth,wght].ttf",
+    "file": "Tiny5[BLED,JITT,ROND,wdth,wght].ttf",
+    "sha256": "588626f2c1b164f55927c0d8123f4bc134651aad7d257da68fc19b0824b0d8fa",
+    "coverage": 1.0
+   },
+   {
+    "family": "Iosevka Charon Mono",
+    "category": "Monospace",
+    "path": "ofl/iosevkacharonmono/IosevkaCharonMono-Regular.ttf",
+    "file": "IosevkaCharonMono-Regular.ttf",
+    "sha256": "ae87c9bc7baae0a18e78cbe498d967865c251cae20fffa0c34e5937ce118f845",
+    "coverage": 1.0
+   }
+  ],
+  "georgian": [
+   {
+    "family": "Google Sans",
+    "category": "Sans Serif",
+    "path": "ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Georgian",
+    "category": "Sans Serif",
+    "path": "ofl/notosansgeorgian/NotoSansGeorgian[wdth,wght].ttf",
+    "file": "NotoSansGeorgian[wdth,wght].ttf",
+    "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Serif Georgian",
+    "category": "Serif",
+    "path": "ofl/notoserifgeorgian/NotoSerifGeorgian[wdth,wght].ttf",
+    "file": "NotoSerifGeorgian[wdth,wght].ttf",
+    "sha256": "a13a90c44a612ab80f79032d3edbbc7f6757f0c6b1613dba1a92f38077cccc57",
+    "coverage": 1.0
+   }
+  ],
+  "hebrew": [
+   {
+    "family": "Open Sans",
+    "category": "Sans Serif",
+    "path": "ofl/opensans/OpenSans[wdth,wght].ttf",
+    "file": "OpenSans[wdth,wght].ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878",
+    "coverage": 1.0
+   },
+   {
+    "family": "Google Sans",
+    "category": "Sans Serif",
+    "path": "ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Arimo",
+    "category": "Sans Serif",
+    "path": "ofl/arimo/Arimo[wght].ttf",
+    "file": "Arimo[wght].ttf",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "coverage": 1.0
+   },
+   {
+    "family": "Rubik",
+    "category": "Sans Serif",
+    "path": "ofl/rubik/Rubik[wght].ttf",
+    "file": "Rubik[wght].ttf",
+    "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+    "coverage": 1.0
+   },
+   {
+    "family": "Heebo",
+    "category": "Sans Serif",
+    "path": "ofl/heebo/Heebo[wght].ttf",
+    "file": "Heebo[wght].ttf",
+    "sha256": "18f930b583fa8fe6b40b2f8263b7ac6afbac07adc91a12467874e7467d3ace30",
+    "coverage": 1.0
+   },
+   {
+    "family": "Varela Round",
+    "category": "Sans Serif",
+    "path": "ofl/varelaround/VarelaRound-Regular.ttf",
+    "file": "VarelaRound-Regular.ttf",
+    "sha256": "e1e47eb66dbc2ddc106661338e712d9176c9e83c669a82fde155324823d03aa2",
+    "coverage": 1.0
+   },
+   {
+    "family": "Assistant",
+    "category": "Sans Serif",
+    "path": "ofl/assistant/Assistant[wght].ttf",
+    "file": "Assistant[wght].ttf",
+    "sha256": "1c3b393884f8fb133a1b17f41d26178adae1050a4f86d7a429d1b5658c314fa3",
+    "coverage": 1.0
+   },
+   {
+    "family": "Fredoka",
+    "category": "Sans Serif",
+    "path": "ofl/fredoka/Fredoka[wdth,wght].ttf",
+    "file": "Fredoka[wdth,wght].ttf",
+    "sha256": "2ba02e68b152868aef9ba28e24b3648c7d457fe6f25c761f2c2c53fb61a73fc8",
+    "coverage": 1.0
+   },
+   {
+    "family": "M PLUS 1p",
+    "category": "Sans Serif",
+    "path": "ofl/mplus1p/MPLUS1p-Regular.ttf",
+    "file": "MPLUS1p-Regular.ttf",
+    "sha256": "2f294ad496432b1608f070d310e3aa2adcf1de4af429f4901df97ec4bd361ed1",
+    "coverage": 1.0
+   },
+   {
+    "family": "Frank Ruhl Libre",
+    "category": "Serif",
+    "path": "ofl/frankruhllibre/FrankRuhlLibre[wght].ttf",
+    "file": "FrankRuhlLibre[wght].ttf",
+    "sha256": "f9bf26966681037aae894b031bd0dcf2c1bfdfa128dd0640cf276fe62a338a43",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tinos",
+    "category": "Serif",
+    "path": "ofl/tinos/Tinos-Regular.ttf",
+    "file": "Tinos-Regular.ttf",
+    "sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61",
+    "coverage": 1.0
+   },
+   {
+    "family": "Amatic SC",
+    "category": "Handwriting",
+    "path": "ofl/amaticsc/AmaticSC-Regular.ttf",
+    "file": "AmaticSC-Regular.ttf",
+    "sha256": "513a76f96d39a5366bd27c258674aaea35ee51c42b8f3060387f74649ee8c8aa",
+    "coverage": 1.0
+   },
+   {
+    "family": "Cardo",
+    "category": "Serif",
+    "path": "ofl/cardo/Cardo-Regular.ttf",
+    "file": "Cardo-Regular.ttf",
+    "sha256": "bcb81f376f1c3892c7026dabf2beafbd1a7ee8ae95d132ee7d4ff7d7c3988261",
+    "coverage": 1.0
+   },
+   {
+    "family": "Bellefair",
+    "category": "Serif",
+    "path": "ofl/bellefair/Bellefair-Regular.ttf",
+    "file": "Bellefair-Regular.ttf",
+    "sha256": "5c0cd4d526e6dfcb189106af6b5e6ec99a54efb6d458dfd61626ce6dc0f03026",
+    "coverage": 1.0
+   },
+   {
+    "family": "M PLUS Rounded 1c",
+    "category": "Sans Serif",
+    "path": "ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+    "file": "MPLUSRounded1c-Regular.ttf",
+    "sha256": "b75708b53e45b06d17d470aeeca5b766e3d1b3999f03f13ec4eb863ca846c14c",
+    "coverage": 1.0
+   },
+   {
+    "family": "Rubik Spray Paint",
+    "category": "Display",
+    "path": "ofl/rubikspraypaint/RubikSprayPaint-Regular.ttf",
+    "file": "RubikSprayPaint-Regular.ttf",
+    "sha256": "e608af93c514f2ba78c9ecfb08e90a206a6f5fd4fc3afbd2db1e65bc65129ca1",
+    "coverage": 1.0
+   },
+   {
+    "family": "Karantina",
+    "category": "Display",
+    "path": "ofl/karantina/Karantina-Regular.ttf",
+    "file": "Karantina-Regular.ttf",
+    "sha256": "a1ef8ee51724f0182f07d060b63047540a0bca96db10d33fa6a0b539f99019bf",
+    "coverage": 1.0
+   },
+   {
+    "family": "Miriam Libre",
+    "category": "Sans Serif",
+    "path": "ofl/miriamlibre/MiriamLibre[wght].ttf",
+    "file": "MiriamLibre[wght].ttf",
+    "sha256": "9ea850118d552d25e1fb8242cbd429a5801c691b6ce218458e1a039045114bb8",
+    "coverage": 1.0
+   },
+   {
+    "family": "Suez One",
+    "category": "Serif",
+    "path": "ofl/suezone/SuezOne-Regular.ttf",
+    "file": "SuezOne-Regular.ttf",
+    "sha256": "3ef86844aad0cf9db7dcbda326f3d2f54cc4ccfe56db949e9e0c60a17031bd41",
+    "coverage": 1.0
+   },
+   {
+    "family": "Secular One",
+    "category": "Sans Serif",
+    "path": "ofl/secularone/SecularOne-Regular.ttf",
+    "file": "SecularOne-Regular.ttf",
+    "sha256": "2f45092a521db5042887941edfef73178ed7c5ba7fdfc5b6f581d44aab7b0234",
+    "coverage": 1.0
+   },
+   {
+    "family": "Rubik Wet Paint",
+    "category": "Display",
+    "path": "ofl/rubikwetpaint/RubikWetPaint-Regular.ttf",
+    "file": "RubikWetPaint-Regular.ttf",
+    "sha256": "3f35d1c77219c5219826b23c2f0c72dd0eed46425a0d4fff21b8827cdce61693",
+    "coverage": 1.0
+   },
+   {
+    "family": "Cousine",
+    "category": "Monospace",
+    "path": "ofl/cousine/Cousine-Regular.ttf",
+    "file": "Cousine-Regular.ttf",
+    "sha256": "1da22250675fc4c42fcf3a9736c44bc0570516105331443b663fd5cfbd1412fe",
+    "coverage": 1.0
+   },
+   {
+    "family": "Noto Sans Hebrew",
+    "category": "Sans Serif",
+    "path": "ofl/notosanshebrew/NotoSansHebrew[wdth,wght].ttf",
+    "file": "NotoSansHebrew[wdth,wght].ttf",
+    "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+    "coverage": 1.0
+   },
+   {
+    "family": "Solitreo",
+    "category": "Handwriting",
+    "path": "ofl/solitreo/Solitreo-Regular.ttf",
+    "file": "Solitreo-Regular.ttf",
+    "sha256": "0b6df66f2145e8fd013d7324b6a55c6bc0c83c4786a6c7dce7505fdbeb65295b",
+    "coverage": 1.0
+   },
+   {
+    "family": "Handjet",
+    "category": "Display",
+    "path": "ofl/handjet/Handjet[ELGR,ELSH,wght].ttf",
+    "file": "Handjet[ELGR,ELSH,wght].ttf",
+    "sha256": "9262749e8bb0b73ebcae0e20428689c3c59576eebeb6c4e1020300d2d41bdf4d",
+    "coverage": 1.0
+   },
+   {
+    "family": "Rubik Scribble",
+    "category": "Display",
+    "path": "ofl/rubikscribble/RubikScribble-Regular.ttf",
+    "file": "RubikScribble-Regular.ttf",
+    "sha256": "341d083481febe704791212f560a0898039d6a5744c8819102f3ce7a7f8fc2d4",
+    "coverage": 1.0
+   },
+   {
+    "family": "Alef",
+    "category": "Sans Serif",
+    "path": "ofl/alef/Alef-Regular.ttf",
+    "file": "Alef-Regular.ttf",
+    "sha256": "a32adcc953ac356906901778460083dc207d4560cb586fd9ea24ec5b186969ed",
+    "coverage": 1.0
+   },
+   {
+    "family": "Bona Nova SC",
+    "category": "Serif",
+    "path": "ofl/bonanovasc/BonaNovaSC-Regular.ttf",
+    "file": "BonaNovaSC-Regular.ttf",
+    "sha256": "e4d155cdf1917f42e4d9073ab8856bb4b58984a3849c7753f27fe3837da832f8",
+    "coverage": 1.0
+   }
+  ]
+ }
+}
