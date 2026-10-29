@@ -2,7 +2,7 @@
 
 uv run python scripts/release_hf.py            # sync main
 uv run python scripts/release_hf.py --tag      # also tag v<BENCH_VERSION>
-Auth: `hf auth login` locally, or HF_TOKEN in CI.
+Uses your local `hf auth login`.
 """
 
 import argparse
