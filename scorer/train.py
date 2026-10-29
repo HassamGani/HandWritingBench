@@ -16,6 +16,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+import synth
 from hwbench.preprocess import emnist_to_ink, normalize
 from hwbench.tasks import CLASSES, accept_set
 
@@ -23,9 +24,12 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/emnist"
 CACHE = ROOT / "data/cache"
 OUT = ROOT / "models"
+NAME = "scorer-v0.2"
 SEED = 0
 EPOCHS = 8
-BS = 512
+BS = 448  # EMNIST per batch
+BS_SYN = 64  # synthetic print letters per batch
+SYN_PER_GLYPH = {"train": 40, "val": 5, "test": 1}
 
 
 def read_idx(path):
@@ -58,6 +62,17 @@ def load_split(split):
     CACHE.mkdir(parents=True, exist_ok=True)
     np.savez(cache, x=x, y=labels)
     return x, labels
+
+
+def load_synth(split):
+    cache = CACHE / f"synth_{split}.npz"
+    if cache.exists():
+        z = np.load(cache)
+        return z["x"], z["y"], list(z["fonts"])
+    x, y, fonts = synth.build(split, SYN_PER_GLYPH[split], seed={"train": 1, "val": 2, "test": 3}[split])
+    CACHE.mkdir(parents=True, exist_ok=True)
+    np.savez(cache, x=x, y=y, fonts=np.array(fonts))
+    return x, y, fonts
 
 
 class Net(nn.Module):
@@ -126,19 +141,23 @@ def main():
     nval = len(x) // 20
     xv, yv = x[idx[:nval]], y[idx[:nval]]
     x, y = x[idx[nval:]], y[idx[nval:]]
+    xs, ys, fonts_train = load_synth("train")
+    xsv, ysv, fonts_val = load_synth("val")
+    xst, yst, fonts_test = load_synth("test")
+    print(f"synth train {len(xs)} ({len(fonts_train)} fonts), val {len(xsv)} ({len(fonts_val)}), test {len(xst)} ({len(fonts_test)})")
 
     # balanced sampling, otherwise the scorer learns a prior that favours e/t/a
     counts = np.bincount(y, minlength=len(CLASSES))
     w = torch.from_numpy(1.0 / counts[y]).double()
     steps = len(y) // BS
 
-    xg = torch.from_numpy(x)
-    yg = torch.from_numpy(y)
+    xg, yg = torch.from_numpy(x), torch.from_numpy(y)
+    xsg, ysg = torch.from_numpy(xs), torch.from_numpy(ys)
     model = Net().to(dev)
     opt = torch.optim.AdamW(model.parameters(), lr=2e-3, weight_decay=5e-4)
     sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=3e-3, total_steps=EPOCHS * steps)
 
-    best, best_state = -1, None
+    best, best_state, best_ep = -1, None, -1
     for ep in range(EPOCHS):
         model.train()
         t = time.time()
@@ -146,8 +165,9 @@ def main():
         tot = 0.0
         for i in range(steps):
             b = sel[i * BS : (i + 1) * BS]
-            xb = xg[b].float().div(255).unsqueeze(1).to(dev)
-            yb = yg[b].to(dev)
+            bs = torch.randint(len(ys), (BS_SYN,))
+            xb = torch.cat([xg[b], xsg[bs]]).float().div(255).unsqueeze(1).to(dev)
+            yb = torch.cat([yg[b], ysg[bs]]).to(dev)
             loss = F.cross_entropy(model(augment(xb)), yb, label_smoothing=0.05)
             opt.zero_grad()
             loss.backward()
@@ -155,33 +175,46 @@ def main():
             sched.step()
             tot += loss.item()
         r = report(predict(model, xv, dev), yv)
-        print(f"ep {ep} loss {tot / steps:.3f} val strict {r['top1_strict']:.4f} accept {r['top1_accept']:.4f} balanced {r['balanced_accept']:.4f} ({time.time() - t:.0f}s)")
-        if r["balanced_accept"] > best:
-            best = r["balanced_accept"]
+        rs = report(predict(model, xsv, dev), ysv)
+        sel_metric = (r["balanced_accept"] + rs["balanced_accept"]) / 2
+        print(f"ep {ep} loss {tot / steps:.3f} emnist-val balanced {r['balanced_accept']:.4f}  font-val balanced {rs['balanced_accept']:.4f} ({time.time() - t:.0f}s)", flush=True)
+        if sel_metric > best:
+            best, best_ep = sel_metric, ep
             best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
 
     model.load_state_dict(best_state)
     test = report(predict(model, xt, dev), yt)
-    print(f"test strict {test['top1_strict']:.4f} accept {test['top1_accept']:.4f} balanced {test['balanced_accept']:.4f}")
+    font_val = report(predict(model, xsv, dev), ysv)
+    hershey = report(predict(model, xst, dev), yst)
+    print(f"EMNIST test accept {test['top1_accept']:.4f} balanced {test['balanced_accept']:.4f}")
+    print(f"font val balanced {font_val['balanced_accept']:.4f}   hershey sans (held out) accept {hershey['top1_accept']:.4f}")
+    worst = sorted(test["per_class_accept"].items(), key=lambda a: a[1])[:6]
+    print("weakest EMNIST classes", [(k, round(v, 3)) for k, v in worst])
+    print("hershey misses", [CLASSES[k] for k in range(len(CLASSES)) if hershey["per_class_accept"][CLASSES[k]] < 1])
 
     OUT.mkdir(exist_ok=True)
     model = model.cpu().eval()
-    onnx_path = OUT / "scorer-v0.1.onnx"
+    onnx_path = OUT / f"{NAME}.onnx"
     torch.onnx.export(model, torch.zeros(1, 1, 28, 28), onnx_path, input_names=["x"], output_names=["logits"],
                       dynamic_axes={"x": {0: "n"}, "logits": {0: "n"}}, opset_version=17, dynamo=False)
     meta = {
-        "name": "scorer-v0.1",
+        "name": NAME,
         "classes": CLASSES,
         "input": "1x28x28 float, ink=1, from hwbench.preprocess.normalize",
-        "train_data": "EMNIST byclass (letters only), train split minus 5% val",
+        "train_data": "EMNIST byclass letters (train minus 5% val) + synthetic print letters (scorer/synth.py), split by font family",
         "train_files_sha256": {f.name: sha(f) for f in sorted(RAW.glob("emnist-byclass-*.gz"))},
+        "synth_fonts": {"train": synth.font_hashes(fonts_train) | {f: "hershey" for f in synth.HERSHEY_TRAIN},
+                        "val": synth.font_hashes(fonts_val), "test": synth.HERSHEY_TEST},
         "epochs": EPOCHS,
+        "best_epoch": best_ep,
         "seed": SEED,
-        "val_balanced_accept": best,
+        "selection": "mean of EMNIST-val and font-val balanced accuracy",
         "test": test,
+        "font_val": {k: font_val[k] for k in ("top1_accept", "balanced_accept")},
+        "hershey_sans_test": hershey,
         "onnx_sha256": sha(onnx_path),
     }
-    (OUT / "scorer-v0.1.json").write_text(json.dumps(meta, indent=2))
+    (OUT / f"{NAME}.json").write_text(json.dumps(meta, indent=2))
 
 
 if __name__ == "__main__":
