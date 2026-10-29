@@ -1,0 +1,62 @@
+{
+ "name": "mandaic-v0.3",
+ "alphabet": "mandaic",
+ "classes": [
+  "ࡀ",
+  "ࡁ",
+  "ࡂ",
+  "ࡃ",
+  "ࡄ",
+  "ࡅ",
+  "ࡆ",
+  "ࡇ",
+  "ࡈ",
+  "ࡉ",
+  "ࡊ",
+  "ࡋ",
+  "ࡌ",
+  "ࡍ",
+  "ࡎ",
+  "ࡏ",
+  "ࡐ",
+  "ࡑ",
+  "ࡒ",
+  "ࡓ",
+  "ࡔ",
+  "ࡕ",
+  "ࡖ",
+  "ࡗ",
+  "ࡘ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Mandaic",
+    "file": "NotoSansMandaic-Regular.ttf",
+    "sha256": "28f9cdd5221c0c0ce42871996a3ca716e0f2f7be5131423e51021c6397be0fdc"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 7500,
+ "epochs": 12,
+ "best_epoch": 5,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "onnx_sha256": "69dd1bbe2c8b7778f2467c2b8fb65cbfe7b0f236e277d38956304c5190ecb5b7"
+}

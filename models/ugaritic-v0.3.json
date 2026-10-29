@@ -1,0 +1,67 @@
+{
+ "name": "ugaritic-v0.3",
+ "alphabet": "ugaritic",
+ "classes": [
+  "𐎀",
+  "𐎁",
+  "𐎂",
+  "𐎃",
+  "𐎄",
+  "𐎅",
+  "𐎆",
+  "𐎇",
+  "𐎈",
+  "𐎉",
+  "𐎊",
+  "𐎋",
+  "𐎌",
+  "𐎍",
+  "𐎎",
+  "𐎏",
+  "𐎐",
+  "𐎑",
+  "𐎒",
+  "𐎓",
+  "𐎔",
+  "𐎕",
+  "𐎖",
+  "𐎗",
+  "𐎘",
+  "𐎙",
+  "𐎚",
+  "𐎛",
+  "𐎜",
+  "𐎝"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Ugaritic",
+    "file": "NotoSansUgaritic-Regular.ttf",
+    "sha256": "68d5a37ab45ba3ab091dda2aa392698963a90e2b399e131394892b8224da6491"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 9000,
+ "epochs": 12,
+ "best_epoch": 1,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "onnx_sha256": "890333ac32330c296705cfce9bcd9ac2d2f144aece7243eac871d3e10e71dc4d"
+}
