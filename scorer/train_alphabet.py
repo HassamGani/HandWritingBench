@@ -52,7 +52,14 @@ def fonts_for(key):
     return plain if len(plain) >= 4 else out
 
 
-def split_fonts(fonts):
+# Scripts whose fonts come in clearly different styles, too few per style to hold one
+# out: holding out a whole style measures style transfer, not legibility. Train on all.
+NO_HOLDOUT = {"syriac"}
+
+
+def split_fonts(fonts, key=None):
+    if key in NO_HOLDOUT:
+        return list(fonts), [], []
     fams = sorted(fonts, key=lambda f: hashlib.sha256(f["family"].encode()).hexdigest())
     n = len(fams)
     if n >= 3:
@@ -213,7 +220,7 @@ def train(key, dev):
     if not fonts:
         print(f"{key}: no fonts, skipped")
         return None
-    tr, va, te = split_fonts(fonts)
+    tr, va, te = split_fonts(fonts, key)
     groups = json.loads(CONF.read_text()).get(key, []) if CONF.exists() else []
     single = len(fonts) == 1
     t0 = time.time()
