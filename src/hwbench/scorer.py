@@ -6,6 +6,7 @@ import numpy as np
 import onnxruntime as ort
 from PIL import Image
 
+from . import positions
 from .preprocess import ink_from_rgb, normalize, rasterize
 
 DEFAULT_MODEL = "scorer-v0.2"
@@ -60,20 +61,26 @@ class Scorer:
         e = np.exp(logits - logits.max())
         return e / e.sum()
 
-    def score_image(self, img: Image.Image, task: dict) -> dict:
-        """Canvas-agnostic: works on any dark-on-light image of a single letter."""
+    def score_image(self, img: Image.Image, task: dict, feats: tuple[float, float] | None = None) -> dict:
+        """Canvas-agnostic: works on any dark-on-light image of a single letter. Without
+        guide-line positions (feats), same-shape case pairs both count."""
         ink = ink_from_rgb(img)
         p = self.probs(ink)
         if p is None:
             return {"valid": False, "invalid_reason": "no_ink", "correct": 0, "p_accept": 0.0}
-        acc = [self.classes.index(c) for c in task["accept"] if c in self.classes]
+        if feats is not None:
+            p = positions.reweight(p, self.classes, task.get("alphabet", "latin"), feats)
+            accept = task["accept"]
+        else:
+            accept = task.get("accept_unguided", task["accept"])
+        acc = [self.classes.index(c) for c in accept if c in self.classes]
         order = np.argsort(-p)
         pred = self.classes[order[0]]
         return {
             "valid": True,
             "invalid_reason": None,
             "pred": pred,
-            "correct": int(pred in task["accept"]),
+            "correct": int(pred in accept),
             "p_accept": float(p[acc].sum()),
             "top5": [[self.classes[i], round(float(p[i]), 4)] for i in order[:5]],
         }
@@ -91,7 +98,11 @@ class Scorer:
         elif stats["extent_px"] < MIN_EXTENT_PX:
             res = {"valid": False, "invalid_reason": "too_small", "correct": 0, "p_accept": 0.0}
         else:
-            res = self.score_image(img, task)
+            use = export.get("guides") and task.get("position_scored")
+            feats = positions.ink_features(strokes, export["ink"], export["guides"]) if use else None
+            res = self.score_image(img, task, feats)
+            if feats:
+                res["pos"] = [round(feats[0], 3), round(feats[1], 3)]
         return {**res, **stats, "scorer": self.name}, img
 
 

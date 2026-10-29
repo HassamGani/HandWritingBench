@@ -27,6 +27,30 @@ def render(path: str, ch: str, size: int = SIZE) -> np.ndarray | None:
     return m[ys.min() : ys.max() + 1, xs.min() : xs.max() + 1]
 
 
+def render_on_baseline(path: str, ch: str, size: int = SIZE) -> tuple[np.ndarray, int] | None:
+    """Glyph mask cropped to ink, plus the y of its top row relative to the baseline (negative = above)."""
+    f = _font(str(path), size)
+    img = Image.new("L", (size * 4, size * 4), 0)
+    ImageDraw.Draw(img).text((size, size * 3), ch, font=f, fill=255, anchor="ls")
+    m = np.asarray(img) > 127
+    if not m.any():
+        return None
+    ys, xs = np.nonzero(m)
+    return m[ys.min() : ys.max() + 1, xs.min() : xs.max() + 1], int(ys.min()) - size * 3
+
+
+@lru_cache(maxsize=16)
+def font_ref(path: str, chars: str, cased: bool, size: int = SIZE) -> float:
+    """The font's top-line height in px: cap height for cased scripts, else the median letter top."""
+    tops = {}
+    for ch in chars:
+        r = render_on_baseline(path, ch, size)
+        if r is not None:
+            tops[ch] = -r[1]
+    pick = [v for c, v in tops.items() if c.isupper()] if cased else list(tops.values())
+    return float(np.median(pick or list(tops.values())))
+
+
 def _rdp(p: np.ndarray, eps: float) -> np.ndarray:
     if len(p) < 3:
         return p
@@ -118,6 +142,15 @@ def _join(paths, tol=2.5):
             if merged:
                 break
     return paths
+
+
+def glyph_strokes_on_baseline(path: str, ch: str) -> list[np.ndarray] | None:
+    """Strokes in font px with y measured down from the baseline."""
+    r = render_on_baseline(path, ch)
+    if r is None:
+        return None
+    m, top = r
+    return [s + [0, top] for s in skeleton_paths(m)]
 
 
 def glyph_strokes(path: str, ch: str) -> tuple[list[np.ndarray], tuple[int, int]] | None:
