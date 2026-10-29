@@ -1,0 +1,76 @@
+{
+ "name": "old-permic-v0.3.1",
+ "alphabet": "old-permic",
+ "classes": [
+  "𐍐",
+  "𐍑",
+  "𐍒",
+  "𐍓",
+  "𐍔",
+  "𐍕",
+  "𐍖",
+  "𐍗",
+  "𐍘",
+  "𐍙",
+  "𐍚",
+  "𐍛",
+  "𐍜",
+  "𐍝",
+  "𐍞",
+  "𐍟",
+  "𐍠",
+  "𐍡",
+  "𐍢",
+  "𐍣",
+  "𐍤",
+  "𐍥",
+  "𐍦",
+  "𐍧",
+  "𐍨",
+  "𐍩",
+  "𐍪",
+  "𐍫",
+  "𐍬",
+  "𐍭",
+  "𐍮",
+  "𐍯",
+  "𐍰",
+  "𐍱",
+  "𐍲",
+  "𐍳",
+  "𐍴",
+  "𐍵"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Old Permic",
+    "file": "NotoSansOldPermic-Regular.ttf",
+    "sha256": "a0a446342fbb13aee85bdfd77b27362ca9b5a4fd8f8fa4318ee33e41dc581bf6"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 11400,
+ "epochs": 12,
+ "best_epoch": 8,
+ "val": {
+  "accept": 0.9769736842105263,
+  "balanced": 0.9769736842105263
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "f29430aa4bb4d47e381abda9a55fd5a07f487b79f4826627867df685bab1dde7"
+}

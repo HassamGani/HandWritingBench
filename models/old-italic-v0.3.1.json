@@ -1,0 +1,72 @@
+{
+ "name": "old-italic-v0.3.1",
+ "alphabet": "old-italic",
+ "classes": [
+  "𐌀",
+  "𐌁",
+  "𐌂",
+  "𐌃",
+  "𐌄",
+  "𐌅",
+  "𐌆",
+  "𐌇",
+  "𐌈",
+  "𐌉",
+  "𐌊",
+  "𐌋",
+  "𐌌",
+  "𐌍",
+  "𐌎",
+  "𐌏",
+  "𐌐",
+  "𐌑",
+  "𐌒",
+  "𐌓",
+  "𐌔",
+  "𐌕",
+  "𐌖",
+  "𐌗",
+  "𐌘",
+  "𐌙",
+  "𐌚",
+  "𐌛",
+  "𐌜",
+  "𐌝",
+  "𐌞",
+  "𐌟"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Cardo",
+    "file": "Cardo-Regular.ttf",
+    "sha256": "bcb81f376f1c3892c7026dabf2beafbd1a7ee8ae95d132ee7d4ff7d7c3988261"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 9300,
+ "epochs": 12,
+ "best_epoch": 5,
+ "val": {
+  "accept": 0.9959677419354839,
+  "balanced": 0.9959677419354839
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [
+  "𐌟"
+ ],
+ "recipe": "perstroke",
+ "onnx_sha256": "576d2cd156e15cd3209f06f07686bc7a6924330636da538b0df17431aeec1ee8"
+}

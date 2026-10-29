@@ -1,0 +1,303 @@
+{
+ "name": "greek-v0.3.1",
+ "alphabet": "greek",
+ "classes": [
+  "Α",
+  "Β",
+  "Γ",
+  "Δ",
+  "Ε",
+  "Ζ",
+  "Η",
+  "Θ",
+  "Ι",
+  "Κ",
+  "Λ",
+  "Μ",
+  "Ν",
+  "Ξ",
+  "Ο",
+  "Π",
+  "Ρ",
+  "Σ",
+  "Τ",
+  "Υ",
+  "Φ",
+  "Χ",
+  "Ψ",
+  "Ω",
+  "α",
+  "β",
+  "γ",
+  "δ",
+  "ε",
+  "ζ",
+  "η",
+  "θ",
+  "ι",
+  "κ",
+  "λ",
+  "μ",
+  "ν",
+  "ξ",
+  "ο",
+  "π",
+  "ρ",
+  "σ",
+  "ς",
+  "τ",
+  "υ",
+  "φ",
+  "χ",
+  "ψ",
+  "ω"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "A",
+ "tier_meaning": ">=2 held-out test font families",
+ "fonts": {
+  "train": [
+   {
+    "family": "Play",
+    "file": "Play-Regular.ttf",
+    "sha256": "eed0da79005cab35d6ed0eacab594ed67cc643be0b2632fa9e440b3bc5078dc4"
+   },
+   {
+    "family": "Noto Serif",
+    "file": "NotoSerif[wdth,wght].ttf",
+    "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713"
+   },
+   {
+    "family": "Didact Gothic",
+    "file": "DidactGothic-Regular.ttf",
+    "sha256": "b98f9e091b6337a86f4e0f69c94c31905e1e287782853f472e176b4e28d3f81f"
+   },
+   {
+    "family": "Ubuntu",
+    "file": "Ubuntu-Regular.ttf",
+    "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64"
+   },
+   {
+    "family": "News Cycle",
+    "file": "NewsCycle-Regular.ttf",
+    "sha256": "8653ccce06d26dcf19a68704a16063835fc9fea036638c2fcbd5bdc8c94e4e95"
+   },
+   {
+    "family": "Fira Sans Condensed",
+    "file": "FiraSansCondensed-Regular.ttf",
+    "sha256": "c67609f14fc9d328442bfffcc31988b0f76e5575cf460fcc1f3dd8e4912fe257"
+   },
+   {
+    "family": "Inter Tight",
+    "file": "InterTight[wght].ttf",
+    "sha256": "b81b73dcb64df3c230cabade7df6c5773bf863233f24c9ee51087519f1f88b6f"
+   },
+   {
+    "family": "Sofia Sans",
+    "file": "SofiaSans[wght].ttf",
+    "sha256": "a3e1019b8867e21b75d26a7b59d4eb2c81d1acf6b69b9ae6cedca269fb68e291"
+   },
+   {
+    "family": "Source Sans 3",
+    "file": "SourceSans3[wght].ttf",
+    "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+   },
+   {
+    "family": "Noto Sans Display",
+    "file": "NotoSansDisplay[wdth,wght].ttf",
+    "sha256": "deaa68141fa5ad21bd17d7c11fa79183ceda19b32e40ff5c33874d42f3636dde"
+   },
+   {
+    "family": "Open Sans",
+    "file": "OpenSans[wdth,wght].ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878"
+   },
+   {
+    "family": "Manrope",
+    "file": "Manrope[wght].ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+   },
+   {
+    "family": "Google Sans",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a"
+   },
+   {
+    "family": "Noto Sans",
+    "file": "NotoSans[wdth,wght].ttf",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+   },
+   {
+    "family": "Roboto Mono",
+    "file": "RobotoMono[wght].ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+   },
+   {
+    "family": "IBM Plex Sans",
+    "file": "IBMPlexSans[wdth,wght].ttf",
+    "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3"
+   },
+   {
+    "family": "EB Garamond",
+    "file": "EBGaramond[wght].ttf",
+    "sha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027"
+   }
+  ],
+  "val": [
+   {
+    "family": "Advent Pro",
+    "file": "AdventPro[wdth,wght].ttf",
+    "sha256": "b60ab2920b89bdc4b7dadfb282cadac6e03833e7a80844f9eac096359b2b9766"
+   },
+   {
+    "family": "Inter",
+    "file": "Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+   },
+   {
+    "family": "Arimo",
+    "file": "Arimo[wght].ttf",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca"
+   },
+   {
+    "family": "Roboto Condensed",
+    "file": "RobotoCondensed[wght].ttf",
+    "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0"
+   }
+  ],
+  "test": [
+   {
+    "family": "Roboto Slab",
+    "file": "RobotoSlab[wght].ttf",
+    "sha256": "786ae192477447d33c6672c3055fba7cbfe45184c9a79e77a14f15716ca05b16"
+   },
+   {
+    "family": "Source Code Pro",
+    "file": "SourceCodePro[wght].ttf",
+    "sha256": "b400fc584e10aff25d0e775ce181b4fc1c5ea1b5dc37b81aeb2084375b945790"
+   },
+   {
+    "family": "JetBrains Mono",
+    "file": "JetBrainsMono[wght].ttf",
+    "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda"
+   },
+   {
+    "family": "Roboto",
+    "file": "Roboto[wdth,wght].ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+   }
+  ]
+ },
+ "confusable_groups": [
+  [
+   "Κ",
+   "κ"
+  ],
+  [
+   "Ο",
+   "ο"
+  ],
+  [
+   "Τ",
+   "τ"
+  ],
+  [
+   "Ρ",
+   "ρ"
+  ],
+  [
+   "Χ",
+   "χ"
+  ],
+  [
+   "Θ",
+   "θ"
+  ],
+  [
+   "Φ",
+   "φ"
+  ],
+  [
+   "Ψ",
+   "ψ"
+  ],
+  [
+   "Ι",
+   "ι"
+  ]
+ ],
+ "samples": 73304,
+ "epochs": 12,
+ "best_epoch": 9,
+ "val": {
+  "accept": 0.9751275510204082,
+  "balanced": 0.9751275510204082
+ },
+ "val_is_independent": true,
+ "test_clean": {
+  "accept": 0.9948979591836735,
+  "balanced": 0.9948979591836735,
+  "per_class": {
+   "Α": 1.0,
+   "Β": 1.0,
+   "Γ": 1.0,
+   "Δ": 1.0,
+   "Ε": 1.0,
+   "Ζ": 1.0,
+   "Η": 1.0,
+   "Θ": 1.0,
+   "Ι": 1.0,
+   "Κ": 1.0,
+   "Λ": 1.0,
+   "Μ": 1.0,
+   "Ν": 1.0,
+   "Ξ": 1.0,
+   "Ο": 1.0,
+   "Π": 1.0,
+   "Ρ": 1.0,
+   "Σ": 1.0,
+   "Τ": 1.0,
+   "Υ": 1.0,
+   "Φ": 1.0,
+   "Χ": 1.0,
+   "Ψ": 1.0,
+   "Ω": 1.0,
+   "α": 1.0,
+   "β": 1.0,
+   "γ": 1.0,
+   "δ": 1.0,
+   "ε": 1.0,
+   "ζ": 1.0,
+   "η": 1.0,
+   "θ": 1.0,
+   "ι": 1.0,
+   "κ": 1.0,
+   "λ": 1.0,
+   "μ": 1.0,
+   "ν": 0.75,
+   "ξ": 1.0,
+   "ο": 1.0,
+   "π": 1.0,
+   "ρ": 1.0,
+   "σ": 1.0,
+   "ς": 1.0,
+   "τ": 1.0,
+   "υ": 1.0,
+   "φ": 1.0,
+   "χ": 1.0,
+   "ψ": 1.0,
+   "ω": 1.0
+  }
+ },
+ "test_aug": {
+  "accept": 0.9834183673469388,
+  "balanced": 0.9834183673469388
+ },
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "d88631ef396b90bdb7249e30964130c27ad0c5e569e535917db8e1bc589574bf"
+}

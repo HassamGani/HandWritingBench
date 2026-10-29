@@ -1,0 +1,82 @@
+{
+ "name": "dogra-v0.3.1",
+ "alphabet": "dogra",
+ "classes": [
+  "𑠀",
+  "𑠁",
+  "𑠂",
+  "𑠃",
+  "𑠄",
+  "𑠅",
+  "𑠆",
+  "𑠇",
+  "𑠈",
+  "𑠉",
+  "𑠊",
+  "𑠋",
+  "𑠌",
+  "𑠍",
+  "𑠎",
+  "𑠏",
+  "𑠐",
+  "𑠑",
+  "𑠒",
+  "𑠓",
+  "𑠔",
+  "𑠕",
+  "𑠖",
+  "𑠗",
+  "𑠘",
+  "𑠙",
+  "𑠚",
+  "𑠛",
+  "𑠜",
+  "𑠝",
+  "𑠞",
+  "𑠟",
+  "𑠠",
+  "𑠡",
+  "𑠢",
+  "𑠣",
+  "𑠤",
+  "𑠥",
+  "𑠦",
+  "𑠧",
+  "𑠨",
+  "𑠩",
+  "𑠪",
+  "𑠫"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Serif Dogra",
+    "file": "NotoSerifDogra-Regular.ttf",
+    "sha256": "82c4680f67a8437f6e237adbc5da559751bb3fcd251e9b82c6d7bd9879896024"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 13200,
+ "epochs": 12,
+ "best_epoch": 8,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "bc1540cffd97da99b5c3102670003466ff2b3479a43ce61eb67611d4d888e3f7"
+}

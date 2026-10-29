@@ -1,0 +1,83 @@
+{
+ "name": "kaithi-v0.3.1",
+ "alphabet": "kaithi",
+ "classes": [
+  "𑂃",
+  "𑂄",
+  "𑂅",
+  "𑂆",
+  "𑂇",
+  "𑂈",
+  "𑂉",
+  "𑂊",
+  "𑂋",
+  "𑂌",
+  "𑂍",
+  "𑂎",
+  "𑂏",
+  "𑂐",
+  "𑂑",
+  "𑂒",
+  "𑂓",
+  "𑂔",
+  "𑂕",
+  "𑂖",
+  "𑂗",
+  "𑂘",
+  "𑂙",
+  "𑂚",
+  "𑂛",
+  "𑂜",
+  "𑂝",
+  "𑂞",
+  "𑂟",
+  "𑂠",
+  "𑂡",
+  "𑂢",
+  "𑂣",
+  "𑂤",
+  "𑂥",
+  "𑂦",
+  "𑂧",
+  "𑂨",
+  "𑂩",
+  "𑂪",
+  "𑂫",
+  "𑂬",
+  "𑂭",
+  "𑂮",
+  "𑂯"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Kaithi",
+    "file": "NotoSansKaithi-Regular.ttf",
+    "sha256": "e33f6b7e0c9d3c4edfb3f9bf9c00b0814bef14f25fef9d2c6a8d1451520ffe43"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 13500,
+ "epochs": 12,
+ "best_epoch": 5,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "bb09948858b4cbd4b88573801e082d496d1c07c903607d97a35b0d700507d5ac"
+}

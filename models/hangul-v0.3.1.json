@@ -1,0 +1,173 @@
+{
+ "name": "hangul-v0.3.1",
+ "alphabet": "hangul",
+ "classes": [
+  "ㄱ",
+  "ㄴ",
+  "ㄷ",
+  "ㄹ",
+  "ㅁ",
+  "ㅂ",
+  "ㅅ",
+  "ㅇ",
+  "ㅈ",
+  "ㅊ",
+  "ㅋ",
+  "ㅌ",
+  "ㅍ",
+  "ㅎ",
+  "ㄲ",
+  "ㄸ",
+  "ㅃ",
+  "ㅆ",
+  "ㅉ",
+  "ㅏ",
+  "ㅐ",
+  "ㅑ",
+  "ㅒ",
+  "ㅓ",
+  "ㅔ",
+  "ㅕ",
+  "ㅖ",
+  "ㅗ",
+  "ㅘ",
+  "ㅙ",
+  "ㅚ",
+  "ㅛ",
+  "ㅜ",
+  "ㅝ",
+  "ㅞ",
+  "ㅟ",
+  "ㅠ",
+  "ㅡ",
+  "ㅢ",
+  "ㅣ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "A",
+ "tier_meaning": ">=2 held-out test font families",
+ "fonts": {
+  "train": [
+   {
+    "family": "Black Han Sans",
+    "file": "BlackHanSans-Regular.ttf",
+    "sha256": "31960809284026681774a8e52dc19ebcad26cf69b0ad9d560f288296fbb52739"
+   },
+   {
+    "family": "Jua",
+    "file": "Jua-Regular.ttf",
+    "sha256": "769677aef240bfc3b9965f2b50748075bff885e6c6992fc591a3fb268279f898"
+   },
+   {
+    "family": "Nanum Gothic Coding",
+    "file": "NanumGothicCoding-Regular.ttf",
+    "sha256": "787effd7efed2abca88ade231faa8191f4e9fcf85b1805a13ee1dc3724b72089"
+   },
+   {
+    "family": "Nanum Myeongjo",
+    "file": "NanumMyeongjo-Regular.ttf",
+    "sha256": "7ed9e8653a8ed04285d51dc343ffea6eb3d9c73afc27383ea8929ee4ffd03205"
+   },
+   {
+    "family": "Nanum Gothic",
+    "file": "NanumGothic-Regular.ttf",
+    "sha256": "76f45ef4a6bcff344c837c95a7dcc26e017e38b5846d5ae0cdcb5b86be2e2d31"
+   },
+   {
+    "family": "Gothic A1",
+    "file": "GothicA1-Regular.ttf",
+    "sha256": "211151bea98098c579610ab1114bb1bfe909057207db561f357b896d076c21ac"
+   }
+  ],
+  "val": [
+   {
+    "family": "Noto Sans KR",
+    "file": "NotoSansKR[wght].ttf",
+    "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+   },
+   {
+    "family": "Noto Serif KR",
+    "file": "NotoSerifKR[wght].ttf",
+    "sha256": "11f8d5de6f1b79195efba3828aaa2ec95c1178f5ae976fb23c8d53250a9938f3"
+   }
+  ],
+  "test": [
+   {
+    "family": "Nanum Pen Script",
+    "file": "NanumPenScript-Regular.ttf",
+    "sha256": "6f0d1ab29c7894010dc88831fb7a0a51edb79136e450344183de5b1a8b52bd43"
+   },
+   {
+    "family": "Dongle",
+    "file": "Dongle-Regular.ttf",
+    "sha256": "2966e7a9d312a868e2b5477bf9a3e59b8ce16beb76e7e52305ab5897d1ce9741"
+   }
+  ]
+ },
+ "confusable_groups": [],
+ "samples": 60000,
+ "epochs": 12,
+ "best_epoch": 6,
+ "val": {
+  "accept": 0.9921875,
+  "balanced": 0.9921875
+ },
+ "val_is_independent": true,
+ "test_clean": {
+  "accept": 0.9125,
+  "balanced": 0.9125,
+  "per_class": {
+   "ㄱ": 1.0,
+   "ㄴ": 1.0,
+   "ㄷ": 1.0,
+   "ㄹ": 1.0,
+   "ㅁ": 0.5,
+   "ㅂ": 0.5,
+   "ㅅ": 1.0,
+   "ㅇ": 1.0,
+   "ㅈ": 1.0,
+   "ㅊ": 1.0,
+   "ㅋ": 1.0,
+   "ㅌ": 1.0,
+   "ㅍ": 1.0,
+   "ㅎ": 0.5,
+   "ㄲ": 1.0,
+   "ㄸ": 1.0,
+   "ㅃ": 1.0,
+   "ㅆ": 1.0,
+   "ㅉ": 1.0,
+   "ㅏ": 1.0,
+   "ㅐ": 1.0,
+   "ㅑ": 1.0,
+   "ㅒ": 1.0,
+   "ㅓ": 0.5,
+   "ㅔ": 1.0,
+   "ㅕ": 1.0,
+   "ㅖ": 1.0,
+   "ㅗ": 1.0,
+   "ㅘ": 1.0,
+   "ㅙ": 1.0,
+   "ㅚ": 1.0,
+   "ㅛ": 0.5,
+   "ㅜ": 1.0,
+   "ㅝ": 0.0,
+   "ㅞ": 1.0,
+   "ㅟ": 1.0,
+   "ㅠ": 1.0,
+   "ㅡ": 1.0,
+   "ㅢ": 1.0,
+   "ㅣ": 1.0
+  }
+ },
+ "test_aug": {
+  "accept": 0.83125,
+  "balanced": 0.83125
+ },
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "3ff1a9458b4f8f762e43fa390f2f352456c861ae6306ba4dcd039a78a464cfba"
+}

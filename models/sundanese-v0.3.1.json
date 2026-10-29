@@ -1,0 +1,68 @@
+{
+ "name": "sundanese-v0.3.1",
+ "alphabet": "sundanese",
+ "classes": [
+  "ᮃ",
+  "ᮄ",
+  "ᮅ",
+  "ᮆ",
+  "ᮇ",
+  "ᮈ",
+  "ᮉ",
+  "ᮊ",
+  "ᮋ",
+  "ᮌ",
+  "ᮍ",
+  "ᮎ",
+  "ᮏ",
+  "ᮐ",
+  "ᮑ",
+  "ᮒ",
+  "ᮓ",
+  "ᮔ",
+  "ᮕ",
+  "ᮖ",
+  "ᮗ",
+  "ᮘ",
+  "ᮙ",
+  "ᮚ",
+  "ᮛ",
+  "ᮜ",
+  "ᮝ",
+  "ᮞ",
+  "ᮟ",
+  "ᮠ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "C",
+ "tier_meaning": "single font family, nothing held out",
+ "fonts": {
+  "train": [
+   {
+    "family": "Noto Sans Sundanese",
+    "file": "NotoSansSundanese[wght].ttf",
+    "sha256": "28282be9cce5a96e6b5baa3cc48044187f65d610879ff29b1dc5fe5ea465df6a"
+   }
+  ],
+  "val": [],
+  "test": []
+ },
+ "confusable_groups": [],
+ "samples": 9000,
+ "epochs": 12,
+ "best_epoch": 5,
+ "val": {
+  "accept": 1.0,
+  "balanced": 1.0
+ },
+ "val_is_independent": false,
+ "test_clean": null,
+ "test_aug": null,
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "21e74d5c94e5a9878fcd76caa81de079b5fcb96a660bad5573bc11a499536f98"
+}

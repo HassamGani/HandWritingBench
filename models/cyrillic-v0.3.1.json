@@ -1,0 +1,427 @@
+{
+ "name": "cyrillic-v0.3.1",
+ "alphabet": "cyrillic",
+ "classes": [
+  "А",
+  "Б",
+  "В",
+  "Г",
+  "Д",
+  "Е",
+  "Ё",
+  "Ж",
+  "З",
+  "И",
+  "Й",
+  "К",
+  "Л",
+  "М",
+  "Н",
+  "О",
+  "П",
+  "Р",
+  "С",
+  "Т",
+  "У",
+  "Ф",
+  "Х",
+  "Ц",
+  "Ч",
+  "Ш",
+  "Щ",
+  "Ъ",
+  "Ы",
+  "Ь",
+  "Э",
+  "Ю",
+  "Я",
+  "а",
+  "б",
+  "в",
+  "г",
+  "д",
+  "е",
+  "ё",
+  "ж",
+  "з",
+  "и",
+  "й",
+  "к",
+  "л",
+  "м",
+  "н",
+  "о",
+  "п",
+  "р",
+  "с",
+  "т",
+  "у",
+  "ф",
+  "х",
+  "ц",
+  "ч",
+  "ш",
+  "щ",
+  "ъ",
+  "ы",
+  "ь",
+  "э",
+  "ю",
+  "я"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "A",
+ "tier_meaning": ">=2 held-out test font families",
+ "fonts": {
+  "train": [
+   {
+    "family": "Playfair Display",
+    "file": "PlayfairDisplay[wght].ttf",
+    "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+   },
+   {
+    "family": "Noto Serif",
+    "file": "NotoSerif[wdth,wght].ttf",
+    "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713"
+   },
+   {
+    "family": "Ubuntu",
+    "file": "Ubuntu-Regular.ttf",
+    "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64"
+   },
+   {
+    "family": "Noto Sans KR",
+    "file": "NotoSansKR[wght].ttf",
+    "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+   },
+   {
+    "family": "Oswald",
+    "file": "Oswald[wght].ttf",
+    "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+   },
+   {
+    "family": "Noto Serif JP",
+    "file": "NotoSerifJP[wght].ttf",
+    "sha256": "2fd527ba12b6a44ec30d796d633360da0aeba6c5d4af1304ce12bb4dc15a7dfc"
+   },
+   {
+    "family": "Merriweather",
+    "file": "Merriweather[opsz,wdth,wght].ttf",
+    "sha256": "d0ed0e359e396af7ad05e73dffd11a3a4c326ea0d0283c56bd9361cb2cc86a96"
+   },
+   {
+    "family": "Nunito Sans",
+    "file": "NunitoSans[YTLC,opsz,wdth,wght].ttf",
+    "sha256": "f934d7142fb4784bf828da485b7dcbd90c0c80d514e9d49a5da0ed3a1ae2491d"
+   },
+   {
+    "family": "Jost",
+    "file": "Jost[wght].ttf",
+    "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076"
+   },
+   {
+    "family": "Source Sans 3",
+    "file": "SourceSans3[wght].ttf",
+    "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+   },
+   {
+    "family": "Open Sans",
+    "file": "OpenSans[wdth,wght].ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878"
+   },
+   {
+    "family": "Nunito",
+    "file": "Nunito[wght].ttf",
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+   },
+   {
+    "family": "Manrope",
+    "file": "Manrope[wght].ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+   },
+   {
+    "family": "Google Sans",
+    "file": "GoogleSans[GRAD,opsz,wght].ttf",
+    "sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a"
+   },
+   {
+    "family": "Noto Sans",
+    "file": "NotoSans[wdth,wght].ttf",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+   },
+   {
+    "family": "Noto Sans JP",
+    "file": "NotoSansJP[wght].ttf",
+    "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+   },
+   {
+    "family": "Roboto Mono",
+    "file": "RobotoMono[wght].ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b"
+   },
+   {
+    "family": "Raleway",
+    "file": "Raleway[wght].ttf",
+    "sha256": "8bbcc3eb8275c388f4bcd998832f8a4b943eadbaf6a595205312774b5951aefb"
+   },
+   {
+    "family": "Libre Franklin",
+    "file": "LibreFranklin[wght].ttf",
+    "sha256": "2329f394b10ed1c71107df20fddc11e2bb1b68c1ecbb385f975b36fd64a971f8"
+   }
+  ],
+  "val": [
+   {
+    "family": "Inter",
+    "file": "Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+   },
+   {
+    "family": "Arimo",
+    "file": "Arimo[wght].ttf",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca"
+   },
+   {
+    "family": "Lora",
+    "file": "Lora[wght].ttf",
+    "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7"
+   },
+   {
+    "family": "Roboto Condensed",
+    "file": "RobotoCondensed[wght].ttf",
+    "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0"
+   }
+  ],
+  "test": [
+   {
+    "family": "Montserrat",
+    "file": "Montserrat[wght].ttf",
+    "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+   },
+   {
+    "family": "Roboto Slab",
+    "file": "RobotoSlab[wght].ttf",
+    "sha256": "786ae192477447d33c6672c3055fba7cbfe45184c9a79e77a14f15716ca05b16"
+   },
+   {
+    "family": "Geist",
+    "file": "Geist[wght].ttf",
+    "sha256": "73894e0448cae90a92b6c2f8732b7bb9acb7b94c418bff559dad4a18e1de9659"
+   },
+   {
+    "family": "Roboto",
+    "file": "Roboto[wdth,wght].ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+   }
+  ]
+ },
+ "confusable_groups": [
+  [
+   "В",
+   "в"
+  ],
+  [
+   "Г",
+   "г"
+  ],
+  [
+   "Д",
+   "д"
+  ],
+  [
+   "Ж",
+   "ж"
+  ],
+  [
+   "З",
+   "з"
+  ],
+  [
+   "И",
+   "и"
+  ],
+  [
+   "Й",
+   "й"
+  ],
+  [
+   "К",
+   "к"
+  ],
+  [
+   "Л",
+   "л"
+  ],
+  [
+   "М",
+   "м"
+  ],
+  [
+   "Н",
+   "н"
+  ],
+  [
+   "О",
+   "о"
+  ],
+  [
+   "П",
+   "п"
+  ],
+  [
+   "Р",
+   "р"
+  ],
+  [
+   "С",
+   "с"
+  ],
+  [
+   "Т",
+   "т"
+  ],
+  [
+   "У",
+   "у"
+  ],
+  [
+   "Ф",
+   "ф"
+  ],
+  [
+   "Х",
+   "х"
+  ],
+  [
+   "Ц",
+   "ц"
+  ],
+  [
+   "Ч",
+   "ч"
+  ],
+  [
+   "Ш",
+   "ш"
+  ],
+  [
+   "Щ",
+   "щ"
+  ],
+  [
+   "Ъ",
+   "ъ"
+  ],
+  [
+   "Ы",
+   "ы"
+  ],
+  [
+   "Ь",
+   "ь"
+  ],
+  [
+   "Э",
+   "э"
+  ],
+  [
+   "Ю",
+   "ю"
+  ],
+  [
+   "Я",
+   "я"
+  ]
+ ],
+ "samples": 97812,
+ "epochs": 12,
+ "best_epoch": 10,
+ "val": {
+  "accept": 0.9943181818181818,
+  "balanced": 0.9943181818181818
+ },
+ "val_is_independent": true,
+ "test_clean": {
+  "accept": 1.0,
+  "balanced": 1.0,
+  "per_class": {
+   "А": 1.0,
+   "Б": 1.0,
+   "В": 1.0,
+   "Г": 1.0,
+   "Д": 1.0,
+   "Е": 1.0,
+   "Ё": 1.0,
+   "Ж": 1.0,
+   "З": 1.0,
+   "И": 1.0,
+   "Й": 1.0,
+   "К": 1.0,
+   "Л": 1.0,
+   "М": 1.0,
+   "Н": 1.0,
+   "О": 1.0,
+   "П": 1.0,
+   "Р": 1.0,
+   "С": 1.0,
+   "Т": 1.0,
+   "У": 1.0,
+   "Ф": 1.0,
+   "Х": 1.0,
+   "Ц": 1.0,
+   "Ч": 1.0,
+   "Ш": 1.0,
+   "Щ": 1.0,
+   "Ъ": 1.0,
+   "Ы": 1.0,
+   "Ь": 1.0,
+   "Э": 1.0,
+   "Ю": 1.0,
+   "Я": 1.0,
+   "а": 1.0,
+   "б": 1.0,
+   "в": 1.0,
+   "г": 1.0,
+   "д": 1.0,
+   "е": 1.0,
+   "ё": 1.0,
+   "ж": 1.0,
+   "з": 1.0,
+   "и": 1.0,
+   "й": 1.0,
+   "к": 1.0,
+   "л": 1.0,
+   "м": 1.0,
+   "н": 1.0,
+   "о": 1.0,
+   "п": 1.0,
+   "р": 1.0,
+   "с": 1.0,
+   "т": 1.0,
+   "у": 1.0,
+   "ф": 1.0,
+   "х": 1.0,
+   "ц": 1.0,
+   "ч": 1.0,
+   "ш": 1.0,
+   "щ": 1.0,
+   "ъ": 1.0,
+   "ы": 1.0,
+   "ь": 1.0,
+   "э": 1.0,
+   "ю": 1.0,
+   "я": 1.0
+  }
+ },
+ "test_aug": {
+  "accept": 0.9919507575757576,
+  "balanced": 0.9919507575757576
+ },
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "92743533ba0b285e9f3a1635b2a9a371ae369008185e9bb36df3772a51eafe31"
+}
