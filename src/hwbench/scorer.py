@@ -6,7 +6,7 @@ import numpy as np
 import onnxruntime as ort
 from PIL import Image
 
-from . import positions
+from . import continuity, positions
 from .preprocess import ink_from_rgb, normalize, rasterize
 
 DEFAULT_MODEL = "scorer-v0.2"
@@ -103,7 +103,7 @@ class Scorer:
             res = self.score_image(img, task, feats)
             if feats:
                 res["pos"] = [round(feats[0], 3), round(feats[1], 3)]
-        return {**res, **stats, "scorer": self.name}, img
+        return {**res, **stats, **continuity.letter_continuity(export, task), "scorer": self.name}, img
 
 
 class ScorerBank:
