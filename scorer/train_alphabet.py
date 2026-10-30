@@ -43,6 +43,8 @@ REJECT = float(os.environ.get("HWB_REJECT", "0"))
 REJECT_LABEL = "<none>"
 SEEDS = int(os.environ.get("HWB_SEEDS", "1"))
 HUMAN = os.environ.get("HWB_HUMAN", "1") == "1"
+# start from the shared backbone (scorer/pretrain_backbone.py) instead of random weights
+INIT = os.environ.get("HWB_INIT")
 HUMAN_CAP = 2000  # per letter, so one huge dataset doesn't drown the fonts
 CONF_THRESH = 0.75
 EPOCHS = 12
@@ -408,6 +410,10 @@ def train(key, dev):
     for seed in range(SEEDS):
         torch.manual_seed(seed)
         model = Net(len(labels), PROFILE["out"]).to(dev)
+        if INIT:
+            own = model.state_dict()
+            own.update({k: v for k, v in torch.load(INIT).items() if k in own and own[k].shape == v.shape})
+            model.load_state_dict(own)
         steps = max(1, len(x) // BS)
         opt = torch.optim.AdamW(model.parameters(), lr=2e-3, weight_decay=5e-4)
         sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=3e-3, total_steps=EPOCHS * steps)
@@ -462,7 +468,7 @@ def train(key, dev):
         "human_test_sets": [i["name"] for i in hum_info if i.get("test")],
         "val": {k: val[k] for k in ("accept", "balanced")}, "val_is_independent": bool(va),
         "test_clean": test, "test_aug": {k: test_aug[k] for k in ("accept", "balanced")} if test_aug else None,
-        "untrainable": missing, "recipe": RECIPE, "onnx_sha256": hashlib.sha256(onnx_path.read_bytes()).hexdigest(),
+        "untrainable": missing, "recipe": RECIPE, "init": Path(INIT).name if INIT else None, "onnx_sha256": hashlib.sha256(onnx_path.read_bytes()).hexdigest(),
     }
     (OUT / f"{name}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
     weak = sorted((test or val)["per_class"].items(), key=lambda kv: kv[1])[:4]
