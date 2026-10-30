@@ -1,0 +1,304 @@
+{
+ "name": "coptic-v0.4.1",
+ "alphabet": "coptic",
+ "classes": [
+  "Ⲁ",
+  "Ⲃ",
+  "Ⲅ",
+  "Ⲇ",
+  "Ⲉ",
+  "Ⲋ",
+  "Ⲍ",
+  "Ⲏ",
+  "Ⲑ",
+  "Ⲓ",
+  "Ⲕ",
+  "Ⲗ",
+  "Ⲙ",
+  "Ⲛ",
+  "Ⲝ",
+  "Ⲟ",
+  "Ⲡ",
+  "Ⲣ",
+  "Ⲥ",
+  "Ⲧ",
+  "Ⲩ",
+  "Ⲫ",
+  "Ⲭ",
+  "Ⲯ",
+  "Ⲱ",
+  "ⲁ",
+  "ⲃ",
+  "ⲅ",
+  "ⲇ",
+  "ⲉ",
+  "ⲋ",
+  "ⲍ",
+  "ⲏ",
+  "ⲑ",
+  "ⲓ",
+  "ⲕ",
+  "ⲗ",
+  "ⲙ",
+  "ⲛ",
+  "ⲝ",
+  "ⲟ",
+  "ⲡ",
+  "ⲣ",
+  "ⲥ",
+  "ⲧ",
+  "ⲩ",
+  "ⲫ",
+  "ⲭ",
+  "ⲯ",
+  "ⲱ"
+ ],
+ "profile": {
+  "frame": 160,
+  "pen": 5,
+  "out": 40
+ },
+ "tier": "A",
+ "tier_meaning": ">=2 held-out test font families",
+ "fonts": {
+  "train": [
+   {
+    "family": "Segoe UI Historic",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05"
+   },
+   {
+    "family": "Noto Sans Coptic",
+    "file": "NotoSansCoptic-Regular.ttf",
+    "sha256": "51990af1bb0df7be8bfe98fda97769cecfa36eee15381e5504df400276abd735"
+   },
+   {
+    "family": "Quivira",
+    "file": "Quivira.otf",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   },
+   {
+    "family": "Antinoou",
+    "file": "Antinoou.ttf",
+    "sha256": "baadb45096d13d6a0f22b608eb705f564079469b48e92039f533b9a38f0c9e70"
+   },
+   {
+    "family": "New Athena Unicode",
+    "file": "newathu5_8.ttf",
+    "sha256": "b19441a8b9eed6b848ec29f474f44c9c240a38a24ed0d9c57333db95c2f6fbfa"
+   },
+   {
+    "family": "IFAO-Grec Unicode",
+    "file": "IFAOGrec.ttf",
+    "sha256": "87b91d084cea1862a6212106dd583693618d297a987896b2413637741f38b9fa"
+   },
+   {
+    "family": "FreeSerif",
+    "file": "FreeSerif.ttf",
+    "sha256": "658563c732eafdc851de2b3f38b27d0afcde5674b2f93440971b9693438c6494"
+   }
+  ],
+  "val": [
+   {
+    "family": "Nilus",
+    "file": "Nilus_hint.ttf",
+    "sha256": "853f5e3a2c6f30974d5d817434d66f476dc226439af8500bb5241058d629959a"
+   },
+   {
+    "family": "Segoe UI Symbol",
+    "file": "seguisym.ttf",
+    "sha256": "5822500a2b7659b076aa340e9e13c3ea651682d9dbebef3f60e3d656a996048b"
+   }
+  ],
+  "test": [
+   {
+    "family": "Fairfax HD",
+    "file": "FairfaxHD.ttf",
+    "sha256": "8ed5c84fa50fd02f145026da522b30519b1637222372d1b47b721cd021fc79ce"
+   },
+   {
+    "family": "Analecta",
+    "file": "Analecta_hint.ttf",
+    "sha256": "9c17d010a6dd2fa41ea41257f1f34616ca7785c8de4b3450535dca07c0758b03"
+   }
+  ]
+ },
+ "confusable_groups": [
+  [
+   "Ⲁ",
+   "ⲁ"
+  ],
+  [
+   "Ⲅ",
+   "ⲅ"
+  ],
+  [
+   "Ⲇ",
+   "ⲇ"
+  ],
+  [
+   "Ⲉ",
+   "ⲉ"
+  ],
+  [
+   "Ⲋ",
+   "ⲋ"
+  ],
+  [
+   "Ⲍ",
+   "ⲍ"
+  ],
+  [
+   "Ⲏ",
+   "ⲏ"
+  ],
+  [
+   "Ⲑ",
+   "ⲑ"
+  ],
+  [
+   "Ⲓ",
+   "ⲓ"
+  ],
+  [
+   "Ⲕ",
+   "ⲕ"
+  ],
+  [
+   "Ⲗ",
+   "ⲗ"
+  ],
+  [
+   "Ⲙ",
+   "ⲙ"
+  ],
+  [
+   "Ⲛ",
+   "ⲛ"
+  ],
+  [
+   "Ⲝ",
+   "ⲝ"
+  ],
+  [
+   "Ⲟ",
+   "ⲟ"
+  ],
+  [
+   "Ⲡ",
+   "ⲡ"
+  ],
+  [
+   "Ⲣ",
+   "ⲣ"
+  ],
+  [
+   "Ⲥ",
+   "ⲥ"
+  ],
+  [
+   "Ⲧ",
+   "ⲧ"
+  ],
+  [
+   "Ⲩ",
+   "ⲩ"
+  ],
+  [
+   "Ⲫ",
+   "ⲫ"
+  ],
+  [
+   "Ⲭ",
+   "ⲭ"
+  ],
+  [
+   "Ⲯ",
+   "ⲯ"
+  ],
+  [
+   "Ⲱ",
+   "ⲱ"
+  ]
+ ],
+ "samples": 74900,
+ "epochs": 12,
+ "best_epoch": [
+  8
+ ],
+ "seeds": 1,
+ "temperature": 0.982,
+ "reject_class": null,
+ "reject_recall_val": null,
+ "human_data": [],
+ "test_human": null,
+ "human_test_sets": [],
+ "val": {
+  "accept": 0.9775,
+  "balanced": 0.9775
+ },
+ "val_is_independent": true,
+ "test_clean": {
+  "accept": 1.0,
+  "balanced": 1.0,
+  "per_class": {
+   "Ⲁ": 1.0,
+   "Ⲃ": 1.0,
+   "Ⲅ": 1.0,
+   "Ⲇ": 1.0,
+   "Ⲉ": 1.0,
+   "Ⲋ": 1.0,
+   "Ⲍ": 1.0,
+   "Ⲏ": 1.0,
+   "Ⲑ": 1.0,
+   "Ⲓ": 1.0,
+   "Ⲕ": 1.0,
+   "Ⲗ": 1.0,
+   "Ⲙ": 1.0,
+   "Ⲛ": 1.0,
+   "Ⲝ": 1.0,
+   "Ⲟ": 1.0,
+   "Ⲡ": 1.0,
+   "Ⲣ": 1.0,
+   "Ⲥ": 1.0,
+   "Ⲧ": 1.0,
+   "Ⲩ": 1.0,
+   "Ⲫ": 1.0,
+   "Ⲭ": 1.0,
+   "Ⲯ": 1.0,
+   "Ⲱ": 1.0,
+   "ⲁ": 1.0,
+   "ⲃ": 1.0,
+   "ⲅ": 1.0,
+   "ⲇ": 1.0,
+   "ⲉ": 1.0,
+   "ⲋ": 1.0,
+   "ⲍ": 1.0,
+   "ⲏ": 1.0,
+   "ⲑ": 1.0,
+   "ⲓ": 1.0,
+   "ⲕ": 1.0,
+   "ⲗ": 1.0,
+   "ⲙ": 1.0,
+   "ⲛ": 1.0,
+   "ⲝ": 1.0,
+   "ⲟ": 1.0,
+   "ⲡ": 1.0,
+   "ⲣ": 1.0,
+   "ⲥ": 1.0,
+   "ⲧ": 1.0,
+   "ⲩ": 1.0,
+   "ⲫ": 1.0,
+   "ⲭ": 1.0,
+   "ⲯ": 1.0,
+   "ⲱ": 1.0
+  }
+ },
+ "test_aug": {
+  "accept": 0.965,
+  "balanced": 0.965
+ },
+ "untrainable": [],
+ "recipe": "perstroke",
+ "onnx_sha256": "db57dd08630f4219b502829d2f1bf90744386f462b3214db37627a66bc28f79f"
+}

@@ -91,7 +91,7 @@ def main(key):
     print(f"{key}: val {best:.3f}  test (human, held out) {test['balanced']:.3f}  weakest "
           f"{sorted(test['per_class'].items(), key=lambda kv: kv[1])[:4]}", flush=True)
 
-    name = f"{spec['alphabet']}-{spec['variant']}-v0.4"
+    name = f"{spec['alphabet']}-{spec['variant']}-v0.4.1"
     model = model.cpu().eval()
     onnx_path = OUT / f"{name}.onnx"
     torch.onnx.export(model, torch.zeros(1, 1, PROFILE["out"], PROFILE["out"]), onnx_path, input_names=["x"], output_names=["logits"],
