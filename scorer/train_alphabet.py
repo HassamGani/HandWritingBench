@@ -34,7 +34,7 @@ FONTS = ROOT / "data" / "fonts"
 CACHE = ROOT / "data" / "cache" / "alphabets"
 OUT = ROOT / "models"
 CONF = ROOT / "src" / "hwbench" / "data" / "confusables.json"
-VERSION = os.environ.get("HWB_SCORER_VERSION", "v0.4")
+VERSION = os.environ.get("HWB_SCORER_VERSION", "v0.4.1")
 # augmentation recipe from scorer/gap_latin.py; env var so the pool workers see it too
 RECIPE = os.environ.get("HWB_RECIPE", "perstroke")
 PROFILE = {"frame": 160, "pen": 5, "out": 40}
@@ -49,13 +49,23 @@ EPOCHS = 12
 BS = 256
 
 
+# fonts whose letterforms nobody writes by hand: these Ogham fonts draw the vowels as diamonds on
+# the stem (people cut notches across it), and a diamond skeletonizes to a plain stem line
+NOT_HANDWRITTEN = {"ogham": {"Noto Sans Ogham", "Apple Symbols", "Segoe UI Historic", "Quivira"}}
+
+
 def fonts_for(key):
     lock = json.loads((ROOT / "fonts.lock.json").read_text())
+    # Word/macOS fonts for thin alphabets (scripts/fetch_system_fonts.py), used only if present locally
+    system = json.loads((ROOT / "fonts.system.json").read_text()) if (ROOT / "fonts.system.json").exists() else {"alphabets": {}}
+    # free fonts from outside Google Fonts for still-weak alphabets (scripts/fetch_extra_fonts.py)
+    extra = json.loads((ROOT / "fonts.extra.json").read_text()) if (ROOT / "fonts.extra.json").exists() else {"alphabets": {}}
     out = []
-    for f in lock["alphabets"].get(key, []):
+    for f in lock["alphabets"].get(key, []) + system["alphabets"].get(key, []) + extra["alphabets"].get(key, []):
         p = FONTS / key / f["file"]
         if p.exists():
             out.append({**f, "local": str(p)})
+    out = [f for f in out if f["family"] not in NOT_HANDWRITTEN.get(key, ())]
     # some fonts list a script in their cmap but draw a placeholder box for every letter
     out = [f for f in out if distinct_glyphs(f["local"], BY_KEY[key].chars) >= 0.9]
     # display faces (pixel fonts, heavy decoration) aren't how anyone writes; drop them when there's enough else

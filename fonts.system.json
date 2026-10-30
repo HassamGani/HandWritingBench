@@ -1,0 +1,534 @@
+{
+ "alphabets": {
+  "georgian": [
+   {
+    "family": "Arial Unicode MS",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+    "file": "Arial Unicode.ttf",
+    "sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+    "coverage": 1.0
+   },
+   {
+    "family": "Helvetica",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Helvetica.ttc",
+    "file": "Helvetica.ttc",
+    "sha256": "25eceb458d4baf628ee0b6a135a9f8ac5ec7b2826646720834bd2bf00dfc825a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Helvetica Neue",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/HelveticaNeue.ttc",
+    "file": "HelveticaNeue.ttc",
+    "sha256": "a43317500f5c8086ebbe479b32e86f53ce7c075c14283aa9894cc23be5bfd8e2",
+    "coverage": 1.0
+   },
+   {
+    "family": "Menlo",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Menlo.ttc",
+    "file": "Menlo.ttc",
+    "sha256": "dc256e0b39c2a6fec947129d421fef41b8b429f58f9b6e5d1b148c87f775c1f6",
+    "coverage": 1.0
+   }
+  ],
+  "tibetan": [
+   {
+    "family": "Arial Unicode MS",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+    "file": "Arial Unicode.ttf",
+    "sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+    "coverage": 1.0
+   },
+   {
+    "family": "Kailasa",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Kailasa.ttc",
+    "file": "Kailasa.ttc",
+    "sha256": "1f97f782da61a3329fd7aaa889dea8a6468b58cb4128bea083e0e540e3c9e551",
+    "coverage": 1.0
+   },
+   {
+    "family": "Kokonor",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Kokonor.ttf",
+    "file": "Kokonor.ttf",
+    "sha256": "e5352ac3b570d3dd17399829557a785ce604c052a95a4e23827a868e1451170c",
+    "coverage": 1.0
+   },
+   {
+    "family": "Microsoft Himalaya",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/himalaya.ttf",
+    "file": "himalaya.ttf",
+    "sha256": "20825ee82bdcbe00a6935c26dffcbaab745a882af3f385c20570c487898ee33a",
+    "coverage": 1.0
+   }
+  ],
+  "myanmar": [
+   {
+    "family": "Myanmar MN",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Myanmar MN.ttc",
+    "file": "Myanmar MN.ttc",
+    "sha256": "e6bf13d07c820a75b13e9d5060255d8e48ddeb3e69d46dd6ed4203b20a0d0d45",
+    "coverage": 1.0
+   },
+   {
+    "family": "Myanmar Sangam MN",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Myanmar Sangam MN.ttc",
+    "file": "Myanmar Sangam MN.ttc",
+    "sha256": "3772190509b76977ec1c57120e1bc6c78dab0551d6a448dde95fbe25092c1504",
+    "coverage": 1.0
+   },
+   {
+    "family": "Myanmar Text",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/mmrtext.ttf",
+    "file": "mmrtext.ttf",
+    "sha256": "3576b1a9893dfb2e625ff4d00bfef87a91dbedd5420828b06819bcfaa9ed17ec",
+    "coverage": 1.0
+   }
+  ],
+  "cherokee": [
+   {
+    "family": "Galvji",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Galvji.ttc",
+    "file": "Galvji.ttc",
+    "sha256": "04f88f648e110ac1d350ac7df22d1ce328cad267cfc381fe2676567654f109c2",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Plantagenet Cherokee",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/PlantagenetCherokee.ttf",
+    "file": "PlantagenetCherokee.ttf",
+    "sha256": "0a73a09a449ec38e6ca0a5d7ff0e0378ecfcf2a01fed9300218e8fbbb706e8d5",
+    "coverage": 1.0
+   }
+  ],
+  "runic": [
+   {
+    "family": "Apple Symbols",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Apple Symbols.ttf",
+    "file": "Apple Symbols.ttf",
+    "sha256": "99b1a177669c568bcb157c107ea4ba0f1f60c77021df990cc5c1d7afa3863b92",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "ogham": [
+   {
+    "family": "Apple Symbols",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Apple Symbols.ttf",
+    "file": "Apple Symbols.ttf",
+    "sha256": "99b1a177669c568bcb157c107ea4ba0f1f60c77021df990cc5c1d7afa3863b92",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "gothic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "glagolitic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "coptic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Symbol",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguisym.ttf",
+    "file": "seguisym.ttf",
+    "sha256": "5822500a2b7659b076aa340e9e13c3ea651682d9dbebef3f60e3d656a996048b",
+    "coverage": 1.0
+   }
+  ],
+  "phoenician": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "deseret": [
+   {
+    "family": "Apple Symbols",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Apple Symbols.ttf",
+    "file": "Apple Symbols.ttf",
+    "sha256": "99b1a177669c568bcb157c107ea4ba0f1f60c77021df990cc5c1d7afa3863b92",
+    "coverage": 1.0
+   },
+   {
+    "family": "Baskerville",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Baskerville.ttc",
+    "file": "Baskerville.ttc",
+    "sha256": "11f63e492099fbcfb50ad4f2ac373485af16c049fd6c975ef4ea79ae53222ef9",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Symbol",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguisym.ttf",
+    "file": "seguisym.ttf",
+    "sha256": "5822500a2b7659b076aa340e9e13c3ea651682d9dbebef3f60e3d656a996048b",
+    "coverage": 1.0
+   }
+  ],
+  "shavian": [
+   {
+    "family": "Apple Symbols",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Apple Symbols.ttf",
+    "file": "Apple Symbols.ttf",
+    "sha256": "99b1a177669c568bcb157c107ea4ba0f1f60c77021df990cc5c1d7afa3863b92",
+    "coverage": 1.0
+   },
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "mongolian": [
+   {
+    "family": "Mongolian Baiti",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/monbaiti.ttf",
+    "file": "monbaiti.ttf",
+    "sha256": "89ada46b7a8307811a09e8d301884e0e54c0fc1167af46efaa4810bb471141b1",
+    "coverage": 1.0
+   }
+  ],
+  "tai-le": [
+   {
+    "family": "Microsoft Tai Le",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/TaiLeb.ttf",
+    "file": "TaiLeb.ttf",
+    "sha256": "f5586f44a7854cf99b2e6967300306c072869db9226527f2bea488fe978b60d0",
+    "coverage": 1.0
+   }
+  ],
+  "new-tai-lue": [
+   {
+    "family": "Microsoft New Tai Lue",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/ntailu.ttf",
+    "file": "ntailu.ttf",
+    "sha256": "86e3908bf4dbeb1961649ff3f3c46d0f0d26f1ed98a172ad799b5528cf2cdd18",
+    "coverage": 1.0
+   }
+  ],
+  "nyiakeng-puachue-hmong": [
+   {
+    "family": "Noto Serif Hmong Nyiakeng",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/NotoSerifNyiakengPuachueHmong-Regular.ttf",
+    "file": "NotoSerifNyiakengPuachueHmong-Regular.ttf",
+    "sha256": "4727ad21c1c9e520ab244399c93014062856009c25fc4154066d9e5e3626b579",
+    "coverage": 1.0
+   }
+  ],
+  "old-italic": [
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 0.969
+   },
+   {
+    "family": "Noto Sans Old Italic",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/NotoSansOldItalic-Regular.ttf",
+    "file": "NotoSansOldItalic-Regular.ttf",
+    "sha256": "411ef5004b1978f51878394bec0971811e28f81cd4184ac2282dcb6996b27c87",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 0.969
+   }
+  ],
+  "old-turkic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "ugaritic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "old-persian": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "carian": [
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "lycian": [
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 1.0
+   },
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "lydian": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "old-south-arabian": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "imperial-aramaic": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "inscriptional-parthian": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "inscriptional-pahlavi": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "kharoshthi": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 0.944
+   }
+  ],
+  "brahmi": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   },
+   {
+    "family": "Tamil Sangam MN",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Tamil Sangam MN.ttc",
+    "file": "Tamil Sangam MN.ttc",
+    "sha256": "8a3606d50f768d1a0418906026f9665c6b6abadd9cdf700d86b08e0e085abbdf",
+    "coverage": 1.0
+   }
+  ],
+  "meroitic-cursive": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "cypriot": [
+   {
+    "family": "Segoe UI Historic",
+    "source": "Microsoft Word",
+    "original": "/Applications/Microsoft Word.app/Contents/Resources/DFonts/seguihis.ttf",
+    "file": "seguihis.ttf",
+    "sha256": "46a418872c688c0a462407b6957b07c6fdfdb217d41f6f1b1ba9c26e3501dd05",
+    "coverage": 1.0
+   }
+  ],
+  "grantha": [
+   {
+    "family": "Tamil Sangam MN",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Supplemental/Tamil Sangam MN.ttc",
+    "file": "Tamil Sangam MN.ttc",
+    "sha256": "8a3606d50f768d1a0418906026f9665c6b6abadd9cdf700d86b08e0e085abbdf",
+    "coverage": 1.0
+   }
+  ],
+  "miao": [
+   {
+    "family": "Geneva",
+    "source": "macOS",
+    "original": "/System/Library/Fonts/Geneva.ttf",
+    "file": "Geneva.ttf",
+    "sha256": "b33d76749bbe41ebdffbdfc0330ace133f231d845539063bb2499d6681681a2a",
+    "coverage": 0.92
+   }
+  ]
+ }
+}

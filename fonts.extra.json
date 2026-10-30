@@ -1,0 +1,538 @@
+{
+ "alphabets": {
+  "glagolitic": [
+   {
+    "family": "VeleBit",
+    "url": "http://nenad.bplaced.net/lib/exe/fetch.php/:velebit-regular_13.03.2025.zip",
+    "member": "VeleBit-Regular 13.03.2025.ttf",
+    "file": "VeleBit-Regular 13.03.2025.ttf",
+    "license": "CC BY-SA 3.0 DE",
+    "sha256": "076720751a956b2c0114494512502e1abc16a1bd3ee1db82fbb576f2e4f09784"
+   },
+   {
+    "family": "Glagolica Missal DPG",
+    "url": "http://nenad.bplaced.net/lib/exe/fetch.php/:glagolica_missal_dpg.zip",
+    "member": "Glagolica Missal DPG.ttf",
+    "file": "Glagolica Missal DPG.ttf",
+    "license": "CC BY-SA 3.0 DE",
+    "sha256": "385f6ffd0a5dbb7ac8fba158ed53ec350423d555a77ee8b07f20c7acb85c2822"
+   },
+   {
+    "family": "Vinodolski Zakon",
+    "url": "http://nenad.bplaced.net/lib/exe/fetch.php/:vinodolski_zakon_23112015_hp.zip",
+    "member": "Vinodolski Zakon_23112015_signiert.ttf",
+    "file": "Vinodolski Zakon_23112015_signiert.ttf",
+    "license": "CC BY-SA 3.0 DE",
+    "sha256": "81e778ba96d83c8807f649bce706e8a36b7a6632248b44bcbecd49daa210c4d5"
+   },
+   {
+    "family": "Dilyana",
+    "url": "https://www.fontspace.com/get/family/zm8po",
+    "member": "Dilyana-n3pJ.ttf",
+    "file": "Dilyana-n3pJ.ttf",
+    "license": "freeware, non-commercial",
+    "sha256": "e59ba3b3830ca0b742bbb3efd15cef3c8cf89a0c41f5b3d965d55c63793dcde9"
+   },
+   {
+    "family": "Quivira",
+    "url": "http://www.quivira-font.com/files/Quivira.otf",
+    "member": null,
+    "file": "Quivira.otf",
+    "license": "public domain",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   },
+   {
+    "family": "MPH 2B Damase",
+    "url": "https://deb.debian.org/debian/pool/main/f/fonts-mph-2b-damase/fonts-mph-2b-damase_001.000.dfsg.2+ds1-7_all.deb",
+    "member": "damase.ttf",
+    "file": "damase.ttf",
+    "license": "public domain",
+    "sha256": "8cdcae671ddccdfe4219ea2862d4054b2dece396485ce04f733119d964fb2891"
+   },
+   {
+    "family": "FreeSerif",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeSerif.ttf",
+    "file": "FreeSerif.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "658563c732eafdc851de2b3f38b27d0afcde5674b2f93440971b9693438c6494"
+   }
+  ],
+  "cherokee": [
+   {
+    "family": "Tsulehisanvhi",
+    "url": "https://language.cherokee.gov/media/x0lp0ruq/tsulehisanvhi.ttf",
+    "member": null,
+    "file": "tsulehisanvhi.ttf",
+    "license": "not stated (Cherokee Nation)",
+    "sha256": "bc3f9bda34aafd24c10ff57068e99b2f17d749b51772e2c81082abea46c8f9ae"
+   },
+   {
+    "family": "Donisiladv",
+    "url": "https://language.cherokee.gov/media/zzcb3sf3/donisiladv.ttf",
+    "member": null,
+    "file": "donisiladv.ttf",
+    "license": "not stated (Cherokee Nation)",
+    "sha256": "405c5352bf782f913fda558e8ba1d236a2921bb462e960d37f3cd33abe2df110"
+   },
+   {
+    "family": "Digohweli",
+    "url": "https://www.languagegeek.com/font/Digohweli.zip",
+    "member": "Digohweli_1_7.ttf",
+    "file": "Digohweli_1_7.ttf",
+    "license": "freeware",
+    "sha256": "06824248f12a6f784a21440df4c3f71c2ea9e887ce4024d95490a6331b18d297"
+   },
+   {
+    "family": "Aboriginal Sans",
+    "url": "https://www.languagegeek.com/font/AboriginalSans.zip",
+    "member": "AboriginalSansREGULAR.ttf",
+    "file": "AboriginalSansREGULAR.ttf",
+    "license": "free",
+    "sha256": "2067caeb0776f0bd7fe6b8cf5bcbf17cde725fda135f4934ce6203cb349eb4a1"
+   },
+   {
+    "family": "Aboriginal Serif",
+    "url": "https://www.languagegeek.com/font/AboriginalSerif.zip",
+    "member": "AboriginalSerifREGULAR.ttf",
+    "file": "AboriginalSerifREGULAR.ttf",
+    "license": "free",
+    "sha256": "659c748d41e3a5e912f887d7921c068dfbb5ed09a7a19e43dff364aa1a757082"
+   },
+   {
+    "family": "FreeSerif",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeSerif.ttf",
+    "file": "FreeSerif.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "658563c732eafdc851de2b3f38b27d0afcde5674b2f93440971b9693438c6494"
+   },
+   {
+    "family": "Quivira",
+    "url": "http://www.quivira-font.com/files/Quivira.otf",
+    "member": null,
+    "file": "Quivira.otf",
+    "license": "public domain",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   },
+   {
+    "family": "MPH 2B Damase",
+    "url": "https://deb.debian.org/debian/pool/main/f/fonts-mph-2b-damase/fonts-mph-2b-damase_001.000.dfsg.2+ds1-7_all.deb",
+    "member": "damase.ttf",
+    "file": "damase.ttf",
+    "license": "public domain",
+    "sha256": "8cdcae671ddccdfe4219ea2862d4054b2dece396485ce04f733119d964fb2891"
+   }
+  ],
+  "phoenician": [
+   {
+    "family": "Phoenician Ahiram",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Phoenician-Ahiram.ttf",
+    "file": "Phoenician-Ahiram.ttf",
+    "license": "GPL-2.0",
+    "sha256": "22790cd588598f836b0e5a00ce348389a46b1c8cbe423756ef403a0f0fa42d4d"
+   },
+   {
+    "family": "Hebrew Paleo Mesha",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Hebrew-Paleo-Mesha.ttf",
+    "file": "Hebrew-Paleo-Mesha.ttf",
+    "license": "GPL-2.0",
+    "sha256": "b28703487a171f2fdb0390b7a48f2f9b0b237bc34e1c6a067c386bdeb96f76ae"
+   },
+   {
+    "family": "Hebrew Paleo Siloam",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Hebrew-Paleo-Siloam.ttf",
+    "file": "Hebrew-Paleo-Siloam.ttf",
+    "license": "GPL-2.0",
+    "sha256": "906b4915bebb067365e671d8af945d3d9bfe8345ffd033d939270e4d7ac70280"
+   },
+   {
+    "family": "Hebrew Paleo Gezer",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Hebrew-Paleo-Gezer.ttf",
+    "file": "Hebrew-Paleo-Gezer.ttf",
+    "license": "GPL-2.0",
+    "sha256": "7bebbe6631d15c9a6c1fe4ca97b2c8571d23bf5fab88ef286be70c6669cc3d3b"
+   },
+   {
+    "family": "Hebrew Paleo Lachish",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Hebrew-Paleo-Lachish.ttf",
+    "file": "Hebrew-Paleo-Lachish.ttf",
+    "license": "GPL-2.0",
+    "sha256": "311261e5321848316c42b21f5195d45558df470852a2bba23e78bc040856b877"
+   },
+   {
+    "family": "Hebrew Paleo Qumran",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Hebrew-Paleo-Qumran.ttf",
+    "file": "Hebrew-Paleo-Qumran.ttf",
+    "license": "GPL-2.0",
+    "sha256": "09f57d68095946ab9f724132b46ba744a28b4eaa21a478bbe2af6919a4862c26"
+   },
+   {
+    "family": "Aramaic Early Br Rkb",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Aramaic-Early-Br-Rkb.ttf",
+    "file": "Aramaic-Early-Br-Rkb.ttf",
+    "license": "GPL-2.0",
+    "sha256": "cc798ea9b34d13de4f79d84cff8e44eec908c5273686c770c4469220c5dfd4b8"
+   },
+   {
+    "family": "FreeSans",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeSans.ttf",
+    "file": "FreeSans.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "c80858440d8fb618e0ac5ff6f16251dbfa6b3316f00f3cdd17d477297dd87b04"
+   },
+   {
+    "family": "Quivira",
+    "url": "http://www.quivira-font.com/files/Quivira.otf",
+    "member": null,
+    "file": "Quivira.otf",
+    "license": "public domain",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   },
+   {
+    "family": "MPH 2B Damase",
+    "url": "https://deb.debian.org/debian/pool/main/f/fonts-mph-2b-damase/fonts-mph-2b-damase_001.000.dfsg.2+ds1-7_all.deb",
+    "member": "damase.ttf",
+    "file": "damase.ttf",
+    "license": "public domain",
+    "sha256": "8cdcae671ddccdfe4219ea2862d4054b2dece396485ce04f733119d964fb2891"
+   }
+  ],
+  "balinese": [
+   {
+    "family": "Vimala",
+    "url": "https://raw.githubusercontent.com/longnow/bali-fonts/master/release/Vimala.ttf",
+    "member": null,
+    "file": "Vimala.ttf",
+    "license": "OFL-1.1",
+    "sha256": "dbd36eb5be64bc76cea7c95cd8a6944ccf05abbb5ea9a7fee9dc0bab5b638a37"
+   },
+   {
+    "family": "Pustaka Bali",
+    "url": "https://raw.githubusercontent.com/longnow/bali-fonts/master/release/PustakaBali.ttf",
+    "member": null,
+    "file": "PustakaBali.ttf",
+    "license": "OFL-1.1",
+    "sha256": "3be419cb0ba42a5f979b8a05f7dd00e173fda199d5c3241325ff765392247863"
+   },
+   {
+    "family": "Kadiri",
+    "url": "https://raw.githubusercontent.com/longnow/bali-fonts/master/release/Kadiri.ttf",
+    "member": null,
+    "file": "Kadiri.ttf",
+    "license": "OFL-1.1",
+    "sha256": "60ae4f5aa2d5d3edc1d7f1763152ee5ba8fad39d09e638ac63664af7acac720f"
+   }
+  ],
+  "kayahli": [
+   {
+    "family": "FreeMono",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeMono.ttf",
+    "file": "FreeMono.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "0517b67f1e50bbcde4e54834a5fa597be2526cf3cbb69487a9fbdb0de1a83b4c"
+   }
+  ],
+  "ogham": [
+   {
+    "family": "BabelStone Ogham",
+    "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneOghamR.ttf",
+    "member": null,
+    "file": "BabelStoneOghamR.ttf",
+    "license": "OFL-1.1",
+    "sha256": "ecd403eeaed8395b6420cb4b5d921e24a379c4d23fcb0419acdc6187a5774322"
+   },
+   {
+    "family": "BabelStone Ogham Bound",
+    "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneOghamBoundR.ttf",
+    "member": null,
+    "file": "BabelStoneOghamBoundR.ttf",
+    "license": "OFL-1.1",
+    "sha256": "09771937de5d2c556c2e9df57dfc477b8bf454857fce2d872b46c06f71a406e5"
+   },
+   {
+    "family": "BabelStone Ogham Fixed",
+    "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneOghamFixed.ttf",
+    "member": null,
+    "file": "BabelStoneOghamFixed.ttf",
+    "license": "OFL-1.1",
+    "sha256": "7a78b9ce17f0b148443d204cef970d12ce8cb644881be309b86662ca9212fba9"
+   },
+   {
+    "family": "BabelStone Pictish Ogham",
+    "url": "https://www.babelstone.co.uk/Fonts/Download/BabelStoneOghamPictishR.ttf",
+    "member": null,
+    "file": "BabelStoneOghamPictishR.ttf",
+    "license": "OFL-1.1",
+    "sha256": "c5bf531eb5642a1eeccb5ca5c161c7bb92408daaf12fa6dc0f57f6b6734d8d76"
+   },
+   {
+    "family": "DejaVu Sans",
+    "url": "https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-sans-ttf-2.37.zip",
+    "member": "DejaVuSans.ttf",
+    "file": "DejaVuSans.ttf",
+    "license": "Bitstream Vera / DejaVu",
+    "sha256": "7da195a74c55bef988d0d48f9508bd5d849425c1770dba5d7bfc6ce9ed848954"
+   }
+  ],
+  "old-italic": [
+   {
+    "family": "Italica Vetus",
+    "url": "https://scholarsfonts.net/ItalicaVetus_1-201.zip",
+    "member": "Italica Vetus 1-201.otf",
+    "file": "Italica Vetus 1-201.otf",
+    "license": "OFL-1.1",
+    "sha256": "bb899c6861f17cbf1ec8cf07594aa4a293c3f595a579b88068ed157932099217"
+   },
+   {
+    "family": "Aegean",
+    "url": "https://deb.debian.org/debian/pool/main/t/ttf-ancient-fonts/fonts-ancient-scripts_2.60-5_all.deb",
+    "member": "Aegean_hint.ttf",
+    "file": "Aegean_hint.ttf",
+    "license": "free for any use (Debian fonts-ancient-scripts 2.60)",
+    "sha256": "f82563b5a9f89925f49dd0bd8c708d71ea2fa5e21630e563acfe491f43bbbcce"
+   },
+   {
+    "family": "New Athena Unicode",
+    "url": "https://apagreekkeys.org/fonts/NAU5_008.zip",
+    "member": "newathu5_8.ttf",
+    "file": "newathu5_8.ttf",
+    "license": "OFL-1.1",
+    "sha256": "b19441a8b9eed6b848ec29f474f44c9c240a38a24ed0d9c57333db95c2f6fbfa"
+   },
+   {
+    "family": "DejaVu Sans",
+    "url": "https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-sans-ttf-2.37.zip",
+    "member": "DejaVuSans.ttf",
+    "file": "DejaVuSans.ttf",
+    "license": "Bitstream Vera / DejaVu",
+    "sha256": "7da195a74c55bef988d0d48f9508bd5d849425c1770dba5d7bfc6ce9ed848954"
+   },
+   {
+    "family": "FreeMono",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeMono.ttf",
+    "file": "FreeMono.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "0517b67f1e50bbcde4e54834a5fa597be2526cf3cbb69487a9fbdb0de1a83b4c"
+   }
+  ],
+  "coptic": [
+   {
+    "family": "Antinoou",
+    "url": "https://evertype.com/fonts/coptic/AntinoouFont.zip",
+    "member": "Antinoou.ttf",
+    "file": "Antinoou.ttf",
+    "license": "freeware, not to be altered or sold",
+    "sha256": "baadb45096d13d6a0f22b608eb705f564079469b48e92039f533b9a38f0c9e70"
+   },
+   {
+    "family": "IFAO-Grec Unicode",
+    "url": "https://www.ifao.egnet.net/uploads/polices/IFAOGrecUnicode-v3.zip",
+    "member": "IFAOGrec.ttf",
+    "file": "IFAOGrec.ttf",
+    "license": "free, royalty-free (IFAO)",
+    "sha256": "87b91d084cea1862a6212106dd583693618d297a987896b2413637741f38b9fa"
+   },
+   {
+    "family": "Analecta",
+    "url": "https://deb.debian.org/debian/pool/main/t/ttf-ancient-fonts/fonts-ancient-scripts_2.60-5_all.deb",
+    "member": "Analecta_hint.ttf",
+    "file": "Analecta_hint.ttf",
+    "license": "free for any use (Debian fonts-ancient-scripts 2.60)",
+    "sha256": "9c17d010a6dd2fa41ea41257f1f34616ca7785c8de4b3450535dca07c0758b03"
+   },
+   {
+    "family": "Nilus",
+    "url": "https://deb.debian.org/debian/pool/main/t/ttf-ancient-fonts/fonts-ancient-scripts_2.60-5_all.deb",
+    "member": "Nilus_hint.ttf",
+    "file": "Nilus_hint.ttf",
+    "license": "free for any use (Debian fonts-ancient-scripts 2.60)",
+    "sha256": "853f5e3a2c6f30974d5d817434d66f476dc226439af8500bb5241058d629959a"
+   },
+   {
+    "family": "New Athena Unicode",
+    "url": "https://apagreekkeys.org/fonts/NAU5_008.zip",
+    "member": "newathu5_8.ttf",
+    "file": "newathu5_8.ttf",
+    "license": "OFL-1.1",
+    "sha256": "b19441a8b9eed6b848ec29f474f44c9c240a38a24ed0d9c57333db95c2f6fbfa"
+   },
+   {
+    "family": "Fairfax HD",
+    "url": "https://www.kreativekorp.com/swdownload/fonts/core/fairfaxhd.zip",
+    "member": "FairfaxHD.ttf",
+    "file": "FairfaxHD.ttf",
+    "license": "OFL-1.1",
+    "sha256": "8ed5c84fa50fd02f145026da522b30519b1637222372d1b47b721cd021fc79ce"
+   },
+   {
+    "family": "Quivira",
+    "url": "http://www.quivira-font.com/files/Quivira.otf",
+    "member": null,
+    "file": "Quivira.otf",
+    "license": "public domain",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   },
+   {
+    "family": "FreeSerif",
+    "url": "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip",
+    "member": "FreeSerif.ttf",
+    "file": "FreeSerif.ttf",
+    "license": "GPL-3.0 with font exception",
+    "sha256": "658563c732eafdc851de2b3f38b27d0afcde5674b2f93440971b9693438c6494"
+   }
+  ],
+  "imperial-aramaic": [
+   {
+    "family": "Aramaic Imperial Yeb",
+    "url": "https://sourceforge.net/projects/culmus/files/ancient_fonts/AncientSemiticFonts-0.06-1/AncientSemiticFonts-0.06-1.TTF.tgz/download",
+    "member": "Aramaic-Imperial-Yeb.ttf",
+    "file": "Aramaic-Imperial-Yeb.ttf",
+    "license": "GPL-2.0",
+    "sha256": "d6d3e6bc13218f4d2486320602540ff18646408cbb8db94c6c2e085a5323bc9e"
+   },
+   {
+    "family": "Quivira",
+    "url": "http://www.quivira-font.com/files/Quivira.otf",
+    "member": null,
+    "file": "Quivira.otf",
+    "license": "public domain",
+    "sha256": "03c2f593b224efffceac6f7f3090cdc935f0817399fcc607e4c7cc1b097b3b5a"
+   }
+  ],
+  "meroitic-cursive": [
+   {
+    "family": "Nilus",
+    "url": "https://deb.debian.org/debian/pool/main/t/ttf-ancient-fonts/fonts-ancient-scripts_2.60-5_all.deb",
+    "member": "Nilus_hint.ttf",
+    "file": "Nilus_hint.ttf",
+    "license": "free for any use (Debian fonts-ancient-scripts 2.60)",
+    "sha256": "853f5e3a2c6f30974d5d817434d66f476dc226439af8500bb5241058d629959a"
+   }
+  ],
+  "shavian": [
+   {
+    "family": "Inter Alia",
+    "url": "https://raw.githubusercontent.com/Shavian-info/interalia/master/instance_otf/InterAlia-Regular.otf",
+    "member": null,
+    "file": "InterAlia-Regular.otf",
+    "license": "OFL-1.1",
+    "sha256": "4a540a97e4a9dec51d5f31dff77bc5b84679979f11b9fbcc287dbb036eebee93"
+   },
+   {
+    "family": "Doolittle Garamond",
+    "url": "https://raw.githubusercontent.com/SpaceLatvija/Shavian-kettu-font-pack/main/DoolittleGaramond-Regular.otf",
+    "member": null,
+    "file": "DoolittleGaramond-Regular.otf",
+    "license": "OFL-1.1",
+    "sha256": "d4672d542146d25649da99827c19bd9409d8505c9b3b7e47e1c9afb586f18112"
+   },
+   {
+    "family": "Andagii",
+    "url": "http://www.i18nguy.com/unicode/andagii.zip",
+    "member": "ANDAGII_.TTF",
+    "file": "ANDAGII_.TTF",
+    "license": "freeware",
+    "sha256": "31ac2b479ee2e81dc95847ecae48d03d39710c7b9fc4fb230742002471d51b3a"
+   },
+   {
+    "family": "Salsa Tequila",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/SalsaTequila.otf",
+    "member": null,
+    "file": "SalsaTequila.otf",
+    "license": "OFL-1.1",
+    "sha256": "24be79468fe58da9a166af527020b8bd22b69b0e6fb27cd722b442d3ba82a5bd"
+   },
+   {
+    "family": "Orelega One Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/orelega-one.ttf",
+    "member": null,
+    "file": "orelega-one.ttf",
+    "license": "OFL-1.1",
+    "sha256": "a834b4d54adb4de442c69fe5b09bee570171c4c3c28676cf9f0026e3595a7c28"
+   },
+   {
+    "family": "Playwrite Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/playwrite.otf",
+    "member": null,
+    "file": "playwrite.otf",
+    "license": "OFL-1.1",
+    "sha256": "bb21731ee44fb7f6133a752b8dd391cfe15ee9ed972ca464035773e74c22b3c4"
+   },
+   {
+    "family": "Space Mono Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/space-mono-shavian-r.otf",
+    "member": null,
+    "file": "space-mono-shavian-r.otf",
+    "license": "OFL-1.1",
+    "sha256": "f985ff35fa71ed68b01a3d4f2fb33bcfb5c2e8b40ddd5043fbbd684bc722a371"
+   },
+   {
+    "family": "Audio Nugget Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/audio-nugget.ttf",
+    "member": null,
+    "file": "audio-nugget.ttf",
+    "license": "OFL-1.1",
+    "sha256": "99e2705151c099ad234c24114bc768edf917f39deddffe4d3dec86b51959ad6c"
+   },
+   {
+    "family": "Americium Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/americium-shavian.otf",
+    "member": null,
+    "file": "americium-shavian.otf",
+    "license": "not stated",
+    "sha256": "dc4d6d50c0b800e40f2d524da048c168c6945d3b82d473663350073b73558cbd"
+   },
+   {
+    "family": "Banter Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/bantershavianunicase.otf",
+    "member": null,
+    "file": "bantershavianunicase.otf",
+    "license": "not stated",
+    "sha256": "42c16f447d230a21721953562b39b4dffb740f446aa29cebc009ab4c98264ca8"
+   },
+   {
+    "family": "Consistency Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/consistency-shavian.ttf",
+    "member": null,
+    "file": "consistency-shavian.ttf",
+    "license": "not stated",
+    "sha256": "7edd70b81e2ccb20bc24c176252db1d0893caa94981a25f522c205771feb434c"
+   },
+   {
+    "family": "Impetus Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/impetusshavian.ttf",
+    "member": null,
+    "file": "impetusshavian.ttf",
+    "license": "not stated",
+    "sha256": "94e69950e0c86ca118eec03316b2c6341e866798f2056f9f2aa7611227dfe95e"
+   },
+   {
+    "family": "Couth Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/couth43shavian.ttf",
+    "member": null,
+    "file": "couth43shavian.ttf",
+    "license": "not stated",
+    "sha256": "511cf06cb769c1fba65fe6a6aa57033f2ea0a94843f569e5119e89940dd3fa17"
+   },
+   {
+    "family": "Iotacism Shavian",
+    "url": "https://2gd4.me/tidbit/shavian-fonts/iotacism43shavian.otf",
+    "member": null,
+    "file": "iotacism43shavian.otf",
+    "license": "not stated",
+    "sha256": "e5a0439ea61e795959b016dc90fb6f63bf6a017c260ef18ede1f56b929442ee8"
+   }
+  ]
+ }
+}
