@@ -16,7 +16,7 @@ def prompt_font(alphabet: str) -> Path | None:
     import json
 
     root = Path(__file__).resolve().parents[2]
-    lock = root / "fonts.lock.json"
+    lock = root / "fonts" / "lock.json"
     if alphabet == "latin" or not lock.exists():
         return None
     for f in json.loads(lock.read_text())["alphabets"].get(alphabet, []):

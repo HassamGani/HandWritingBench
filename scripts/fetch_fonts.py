@@ -1,7 +1,7 @@
 """Download open-licensed training fonts for every alphabet from google/fonts.
 
-uv run python scripts/fetch_fonts.py            # resolve + download, writes fonts.lock.json
-uv run python scripts/fetch_fonts.py --locked   # re-download exactly what fonts.lock.json lists
+uv run python scripts/fetch_fonts.py            # resolve + download, writes fonts/lock.json
+uv run python scripts/fetch_fonts.py --locked   # re-download exactly what fonts/lock.json lists
 
 Fonts land in data/fonts/ (gitignored). The lock file pins the google/fonts commit
 and every file's sha256, so the scorer training set is reproducible.
@@ -24,7 +24,7 @@ from hwbench.trace import render
 
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = ROOT / "data" / "fonts"
-LOCK = ROOT / "fonts.lock.json"
+LOCK = ROOT / "fonts" / "lock.json"
 META_URL = "https://fonts.google.com/metadata/fonts"
 MAX_FAMILIES = 28
 MAX_FAMILIES_CJK = 10

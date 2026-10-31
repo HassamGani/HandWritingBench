@@ -4,7 +4,7 @@ uv run --extra train python scorer/train_alphabet.py greek cyrillic ...
 uv run --extra train python scorer/train_alphabet.py --all
 uv run python scorer/train_alphabet.py --confusables-only --all
 
-Fonts come from fonts.lock.json (scripts/fetch_fonts.py) and are split into
+Fonts come from fonts/lock.json (scripts/fetch_fonts.py) and are split into
 train / val / test by family. Training samples are half filled glyphs with affine
 jitter and half traced pen strokes with jitter and coarsening (closer to what an
 agent draws). Test fonts are never trained on or used for model selection.
@@ -57,11 +57,11 @@ NOT_HANDWRITTEN = {"ogham": {"Noto Sans Ogham", "Apple Symbols", "Segoe UI Histo
 
 
 def fonts_for(key):
-    lock = json.loads((ROOT / "fonts.lock.json").read_text())
+    lock = json.loads((ROOT / "fonts" / "lock.json").read_text())
     # Word/macOS fonts for thin alphabets (scripts/fetch_system_fonts.py), used only if present locally
-    system = json.loads((ROOT / "fonts.system.json").read_text()) if (ROOT / "fonts.system.json").exists() else {"alphabets": {}}
+    system = json.loads((ROOT / "fonts" / "system.json").read_text()) if (ROOT / "fonts" / "system.json").exists() else {"alphabets": {}}
     # free fonts from outside Google Fonts for still-weak alphabets (scripts/fetch_extra_fonts.py)
-    extra = json.loads((ROOT / "fonts.extra.json").read_text()) if (ROOT / "fonts.extra.json").exists() else {"alphabets": {}}
+    extra = json.loads((ROOT / "fonts" / "extra.json").read_text()) if (ROOT / "fonts" / "extra.json").exists() else {"alphabets": {}}
     out = []
     for f in lock["alphabets"].get(key, []) + system["alphabets"].get(key, []) + extra["alphabets"].get(key, []):
         p = FONTS / key / f["file"]

@@ -114,7 +114,7 @@ def latin_fonts():
     """Every downloaded font family that covers A-Z a-z (they come from the other alphabets' sets)."""
     from fontTools.ttLib import TTFont
 
-    lock = json.loads((ROOT / "fonts.lock.json").read_text())["alphabets"]
+    lock = json.loads((ROOT / "fonts" / "lock.json").read_text())["alphabets"]
     seen, fonts = set(), []
     for key, fs in lock.items():
         for f in fs:

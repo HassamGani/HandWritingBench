@@ -23,7 +23,7 @@ def distinct_ratio(path, chars):
 
 
 if __name__ == "__main__":
-    lock = json.loads((ROOT / "fonts.lock.json").read_text())["alphabets"]
+    lock = json.loads((ROOT / "fonts" / "lock.json").read_text())["alphabets"]
     bad = {}
     for key, fonts in lock.items():
         if key not in BY_KEY:

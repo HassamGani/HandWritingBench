@@ -1,12 +1,12 @@
 """Copy extra fonts from Microsoft Word and macOS for alphabets with few open fonts.
 
-uv run python scripts/fetch_system_fonts.py            # scan, copy, write fonts.system.json
-uv run python scripts/fetch_system_fonts.py --locked   # copy exactly what fonts.system.json lists
+uv run python scripts/fetch_system_fonts.py            # scan, copy, write fonts/system.json
+uv run python scripts/fetch_system_fonts.py --locked   # copy exactly what fonts/system.json lists
 
 These fonts aren't ours to redistribute, so they're only copied into data/fonts/ (gitignored)
-and never uploaded. fonts.system.json records family, source and sha256 so a rebuild on a
+and never uploaded. fonts/system.json records family, source and sha256 so a rebuild on a
 machine with the same Word/macOS fonts is checkable. Without them the trainer just uses the
-open fonts in fonts.lock.json.
+open fonts in fonts/lock.json.
 """
 
 import argparse
@@ -21,7 +21,7 @@ from hwbench.alphabets import ALPHABETS
 
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = ROOT / "data" / "fonts"
-OUT = ROOT / "fonts.system.json"
+OUT = ROOT / "fonts" / "system.json"
 SOURCES = {
     "Microsoft Word": [Path("/Applications/Microsoft Word.app/Contents/Resources/DFonts")],
     "macOS": [Path("/System/Library/Fonts"), Path("/Library/Fonts"), Path("/System/Library/AssetsV2")],
@@ -66,7 +66,7 @@ def main():
     if a.locked:
         data = json.loads(OUT.read_text())
     else:
-        lock = json.loads((ROOT / "fonts.lock.json").read_text())["alphabets"]
+        lock = json.loads((ROOT / "fonts" / "lock.json").read_text())["alphabets"]
         fonts = scan()
         data = {"alphabets": {}}
         for alpha in ALPHABETS:

@@ -3,7 +3,7 @@
 uv run python scripts/fetch_extra_fonts.py
 
 Sources are below with the license each one states. Files land in data/fonts/<alphabet>/
-(gitignored); fonts.extra.json records url, archive member and sha256 for each.
+(gitignored); fonts/extra.json records url, archive member and sha256 for each.
 """
 
 import hashlib
@@ -18,7 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = ROOT / "data" / "fonts"
 CACHE = ROOT / "data" / "cache" / "extra_fonts"
-OUT = ROOT / "fonts.extra.json"
+OUT = ROOT / "fonts" / "extra.json"
 
 GNU = "https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip"
 QUIVIRA = "http://www.quivira-font.com/files/Quivira.otf"
