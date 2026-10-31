@@ -6,3 +6,4 @@ runs/
 .DS_Store
 models/*-v0.3*.onnx
 models/*-v0.4*.onnx
+.env
